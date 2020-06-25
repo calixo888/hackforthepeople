@@ -19,23 +19,28 @@ export default ({ children }) => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="/about">
-                  <a className="nav-link">About</a>
+                <Link href="/team">
+                  <a className="nav-link">Team</a>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="/partners">
-                  <a className="nav-link">Partners</a>
+                <Link href="/resources">
+                  <a className="nav-link">Resources</a>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="/products">
-                  <a className="nav-link">Products</a>
+                <Link href="/schedule">
+                  <a className="nav-link">Schedule</a>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="/opportunities">
-                  <a className="nav-link">Opportunities</a>
+                <Link href="/workshops">
+                  <a className="nav-link">Workshops</a>
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link href="/faqs">
+                  <a className="nav-link">FAQs</a>
                 </Link>
               </li>
             </ul>
