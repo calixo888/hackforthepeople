@@ -16,3 +16,9 @@
     }
   }
 }
+
+@media (max-width: 600px) {
+  .partners-grid {
+    grid-template-columns: repeat(auto-fill, 100%) !important;
+  }
+}

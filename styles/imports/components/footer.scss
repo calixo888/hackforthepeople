@@ -53,5 +53,19 @@ footer {
     .image {
       display: none;
     }
+
+    .horizontal-links {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      & li {
+        margin-right: 0;
+      }
+    }
+
+    .email-input {
+      grid-gap: 0;
+    }
   }
 }
