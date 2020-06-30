@@ -13,3 +13,13 @@ header {
     align-items: center;
   }
 }
+
+@media (max-width: 600px) {
+  .header-grid {
+    grid-template-columns: repeat(auto-fill, 100%) !important;
+
+    .image {
+      display: none;
+    }
+  }
+}

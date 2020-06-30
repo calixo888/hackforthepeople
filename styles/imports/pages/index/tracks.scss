@@ -12,6 +12,7 @@
 
     .track {
       text-align: center;
+      width: 100%;
 
       & img {
         width: 50%;
@@ -20,6 +21,19 @@
       & p {
         width: 75%;
         margin: 0 auto;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .track-grid {
+    grid-template-columns: repeat(auto-fill, 100%) !important;
+
+    .track {
+
+      & p {
+        width: 100% !important;
       }
     }
   }

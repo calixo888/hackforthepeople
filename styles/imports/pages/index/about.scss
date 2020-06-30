@@ -11,3 +11,13 @@
     background-color: $color-primary;
   }
 }
+
+@media (max-width: 600px) {
+  .about-grid {
+    grid-template-columns: repeat(auto-fill, 100%) !important;
+
+    .image {
+      display: none;
+    }
+  }
+}

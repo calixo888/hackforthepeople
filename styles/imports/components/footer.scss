@@ -45,3 +45,13 @@ footer {
     }
   }
 }
+
+@media (max-width: 600px) {
+  .footer-grid {
+    grid-template-columns: repeat(auto-fill, 100%) !important;
+
+    .image {
+      display: none;
+    }
+  }
+}
