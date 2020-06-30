@@ -50,9 +50,32 @@ export default ({ children }) => {
 
       {children}
 
-      <footer className="header">
+      <footer>
         <div className="container">
-          <h1>Footer</h1>
+          <div className="footer-grid">
+            <div>
+              <h1>Footer</h1>
+              <ul className="horizontal-links">
+                <li><a href="#" target="_blank">Facebook</a></li>
+                <li><a href="#" target="_blank">Instagram</a></li>
+                <li><a href="#" target="_blank">Twitter</a></li>
+              </ul>
+              <div className="email-input">
+                <input className="form-control" type="text" placeholder="Type something here" />
+                <button type="button">&rarr;</button>
+              </div>
+              <ul className="horizontal-links">
+                <li><a href="#" target="_blank">Item 1</a></li>
+                <li><a href="#" target="_blank">Item 2</a></li>
+                <li><a href="#" target="_blank">Item 3</a></li>
+                <li><a href="#" target="_blank">Item 4</a></li>
+              </ul>
+            </div>
+            <div className="image" style={{ height: "300px" }}></div>
+          </div>
+          <div>
+            <small>&copy; 2020 Hack For The People.</small>
+          </div>
         </div>
       </footer>
     </>
