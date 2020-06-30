@@ -74,12 +74,70 @@ export default () => {
       <section className="partnerships">
         <div className="container">
           <h1>Partnerships</h1>
+          <div className="partners-grid">
+            <div className="partner">
+              <h1>Partner</h1>
+            </div>
+            <div className="partner">
+              <h1>Partner</h1>
+            </div>
+            <div className="partner">
+              <h1>Partner</h1>
+            </div>
+            <div className="partner">
+              <h1>Partner</h1>
+            </div>
+            <div className="partner">
+              <h1>Partner</h1>
+            </div>
+            <div className="partner">
+              <h1>Partner</h1>
+            </div>
+            <div className="partner">
+              <h1>Partner</h1>
+            </div>
+            <div className="partner">
+              <h1>Partner</h1>
+            </div>
+            <div className="partner">
+              <h1>Partner</h1>
+            </div>
+          </div>
         </div>
       </section>
 
       <section className="sponsors">
         <div className="container">
-          <h1>Sponsors</h1>
+        <h1>Sponsors</h1>
+          <div className="sponsors-grid">
+            <div className="sponsor">
+              <h1>Sponsor</h1>
+            </div>
+            <div className="sponsor">
+              <h1>Sponsor</h1>
+            </div>
+            <div className="sponsor">
+              <h1>Sponsor</h1>
+            </div>
+            <div className="sponsor">
+              <h1>Sponsor</h1>
+            </div>
+            <div className="sponsor">
+              <h1>Sponsor</h1>
+            </div>
+            <div className="sponsor">
+              <h1>Sponsor</h1>
+            </div>
+            <div className="sponsor">
+              <h1>Sponsor</h1>
+            </div>
+            <div className="sponsor">
+              <h1>Sponsor</h1>
+            </div>
+            <div className="sponsor">
+              <h1>Sponsor</h1>
+            </div>
+          </div>
         </div>
       </section>
     </Layout>
