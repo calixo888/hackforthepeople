@@ -8,12 +8,12 @@ export default () => {
           <div className="header-grid">
             <div>
               <h1>Hack For The People</h1>
-              <h4>
+              <h4 className="py-3">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
               </h4>
               <div className="cta-buttons">
-                <button type="button">Button 1</button>
-                <button type="button">Button 2</button>
+                <button className="btn w-100 btn-outline-light" type="button">Button 1</button>
+                <button className="btn w-100 btn-light" type="button">Button 2</button>
               </div>
             </div>
             <div className="image" style={{ height: "300px" }}></div>

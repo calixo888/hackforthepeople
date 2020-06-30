@@ -8,13 +8,18 @@
   .track-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    grid-gap: 30px;
+    grid-gap: 50px;
 
     .track {
       text-align: center;
 
       & img {
         width: 50%;
+      }
+
+      & p {
+        width: 75%;
+        margin: 0 auto;
       }
     }
   }
