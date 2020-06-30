@@ -1,1 +1,13 @@
 @import "./imports/base";
+
+// PAGES
+// INDEX SECTIONS
+@import "./imports/pages/index/header";
+@import "./imports/pages/index/about";
+@import "./imports/pages/index/partnerships";
+@import "./imports/pages/index/sponsors";
+@import "./imports/pages/index/tracks";
+
+// COMPONENTS
+@import "./imports/components/navbar";
+@import "./imports/components/footer";
