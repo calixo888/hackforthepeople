@@ -38,6 +38,36 @@ export default () => {
       <section className="tracks">
         <div className="container">
           <h1>Tracks</h1>
+          <div className="track-grid">
+            <div className="track">
+              <img src="/img/illustrations/test.svg" />
+              <h3>Track</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+              </p>
+            </div>
+            <div className="track">
+              <img src="/img/illustrations/test.svg" />
+              <h3>Track</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+              </p>
+            </div>
+            <div className="track">
+              <img src="/img/illustrations/test.svg" />
+              <h3>Track</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+              </p>
+            </div>
+            <div className="track">
+              <img src="/img/illustrations/test.svg" />
+              <h3>Track</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
