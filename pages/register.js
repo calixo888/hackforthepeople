@@ -3,7 +3,7 @@ import Layout from '../components/Layout.js';
 export default () => {
   return (
     <Layout>
-      <h1>Workshops</h1>
+      <h1>Register</h1>
     </Layout>
   )
 }

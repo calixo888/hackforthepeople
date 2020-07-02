@@ -19,8 +19,8 @@ export default ({ children }) => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="/team">
-                  <a className="nav-link">Team</a>
+                <Link href="/about">
+                  <a className="nav-link">About</a>
                 </Link>
               </li>
               <li className="nav-item">
@@ -34,13 +34,13 @@ export default ({ children }) => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="/workshops">
-                  <a className="nav-link">Workshops</a>
+                <Link href="/faqs">
+                  <a className="nav-link">FAQs</a>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="/faqs">
-                  <a className="nav-link">FAQs</a>
+                <Link href="/register">
+                  <a className="nav-link">Register</a>
                 </Link>
               </li>
             </ul>
