@@ -1,0 +1,22 @@
+.goals {
+
+  &-header {
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  &-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    grid-gap: 25px;
+
+    .goal {
+      text-align: center;
+
+      & img {
+        width: 100%;
+      }
+    }
+  }
+}
