@@ -1,0 +1,27 @@
+table {
+  width: 100%;
+  height: 100px;
+  overflow-y: scroll;
+}
+
+th {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+th, td {
+  padding: 10px 15px;
+}
+
+table tr:nth-child(even) {
+  background-color: #eee;
+}
+
+table tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+table th {
+  color: white;
+  background-color: $color-primary;
+}
