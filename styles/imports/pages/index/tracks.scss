@@ -26,6 +26,30 @@
   }
 }
 
+.Modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  margin-right           : -50%;
+  transform             : translate(-50%, -50%);
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height:70vh;
+    width:50vw;
+ 
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
 @media (max-width: 600px) {
   .track-grid {
     grid-template-columns: repeat(auto-fill, 100%) !important;
@@ -37,4 +61,27 @@
       }
     }
   }
+  .Modal { 
+    margin: 0;
+    padding:0;
+    border-radius: 15px;
+    width:-webkit-fill-available;
+    height:-webkit-fill-available;
+  }
+
+  .Overlay {
+    margin: 0;
+    padding:0;
+    border-radius: 15px;
+    width:-webkit-fill-available;
+    height:-webkit-fill-available;
+
+  }
+
+
+ 
 }
+
+
+
+
