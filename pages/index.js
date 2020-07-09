@@ -1,43 +1,33 @@
 import Layout from '../components/Layout.js';
+import Head from 'next/head';
 import Header from '../components/Header.js';
 import React,{ useState, useEffect } from 'react';
 import ReactModal from 'react-modal';
 
-
-
 const trackContent = {
-
   one : {
     title:"1",
     description: "one",
     resources:"1\n2\n3\n"
-
-
   },
-
   two : {
     title:"2",
     description: "two",
     resources:"1\n2\n3\n"
   },
-
   three : {
     title:"3",
     description: "three",
     resources:"1\n2\n3\n"
   },
-
   four: {
     title:"4",
     description: "four",
     resources:"1\n2\n3\n"
-
   }
-
 }
 
 export default () => {
-
   var subtitle;
   const [modalOneIsOpen,setIsOpenOne] = React.useState(false);
   const [modalTwoIsOpen,setIsOpenTwo] = React.useState(false);
@@ -55,12 +45,12 @@ export default () => {
   function openModalFour() {
     setIsOpenFour(true);
   }
- 
+
   function afterOpenModal() {
     // references are now sync'd and can be accessed.
     subtitle.style.color = '#f00';
   }
- 
+
   function closeModalOne(){
     setIsOpenOne(false);
   }
@@ -76,15 +66,19 @@ export default () => {
 
   return (
     <Layout>
+      <Head>
+        <title>Hack For The People</title>
+        <meta name="description" content="Check out Hack For The People, an inter-collegiate online hackathon powered by the Coronavirus Visualization Team!" />
+      </Head>
         <ReactModal
           isOpen={modalOneIsOpen}
           onAfterOpen={afterOpenModal}
-          
+
           onRequestClose={closeModalOne}
           contentLabel="Example Modal"
           className="Modal"
           overlayClassName="Overlay"
-          
+
         >
         <div style={{display:"flex",flexDirection:"row",justifyContent:"flex-end"}}>
           <button onClick={closeModalOne} style={{border:"none",background:"none",fontSize:"30px",fontWeight:200,color:"grey",marginTop:"-5px"}}>X</button>
@@ -103,7 +97,7 @@ export default () => {
           contentLabel="Example Modal"
           className="Modal"
           overlayClassName="Overlay"
-          
+
         >
         <div style={{display:"flex",flexDirection:"row",justifyContent:"flex-end"}}>
           <button onClick={closeModalTwo} style={{border:"none",background:"none",fontSize:"30px",fontWeight:200,color:"grey",marginTop:"-5px"}}>X</button>
@@ -123,7 +117,7 @@ export default () => {
           contentLabel="Example Modal"
           className="Modal"
           overlayClassName="Overlay"
-          
+
         >
         <div style={{display:"flex",flexDirection:"row",justifyContent:"flex-end"}}>
           <button onClick={closeModalThree} style={{border:"none",background:"none",fontSize:"30px",fontWeight:200,color:"grey",marginTop:"-5px"}}>X</button>
@@ -136,7 +130,7 @@ export default () => {
         </ReactModal>
 
 
-       
+
         <ReactModal
           isOpen={modalFourIsOpen}
           onAfterOpen={afterOpenModal}
@@ -144,7 +138,7 @@ export default () => {
           contentLabel="Example Modal"
           className="Modal"
           overlayClassName="Overlay"
-          
+
         >
         <div style={{display:"flex",flexDirection:"row",justifyContent:"flex-end"}}>
           <button onClick={closeModalOne} style={{border:"none",background:"none",fontSize:"30px",fontWeight:200,color:"grey",marginTop:"-5px"}}>X</button>
@@ -195,7 +189,7 @@ export default () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
               </p>
             </div>
-            <div className="track" onClick={openModalThree} style={{cursor:"pointer"}}> 
+            <div className="track" onClick={openModalThree} style={{cursor:"pointer"}}>
               <img src="/img/illustrations/test.svg"   />
               <h3>Track</h3>
               <p>
