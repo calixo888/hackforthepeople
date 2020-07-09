@@ -7,3 +7,13 @@
     margin: 0 auto;
   }
 }
+
+@media (max-width: 600px) {
+  .header {
+    padding: 25px 0;
+
+    & div {
+      width: 90%;
+    }
+  }
+}

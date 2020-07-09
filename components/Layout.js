@@ -24,11 +24,6 @@ export default ({ children }) => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="/resources">
-                  <a className="nav-link">Resources</a>
-                </Link>
-              </li>
-              <li className="nav-item">
                 <Link href="/schedule">
                   <a className="nav-link">Schedule</a>
                 </Link>
@@ -39,9 +34,7 @@ export default ({ children }) => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="/register">
-                  <a className="nav-link">Register</a>
-                </Link>
+                <a className="nav-link" href="#" target="_blank">Register</a>
               </li>
             </ul>
           </div>
@@ -54,21 +47,39 @@ export default ({ children }) => {
         <div className="container">
           <div className="footer-grid">
             <div>
-              <h1>Footer</h1>
+              <h1>Hack For The People</h1>
               <ul className="horizontal-links">
-                <li><a href="#" target="_blank">Facebook</a></li>
-                <li><a href="#" target="_blank">Instagram</a></li>
-                <li><a href="#" target="_blank">Twitter</a></li>
+                <li>
+                  <a href="#" target="_blank">
+                    <img src="/img/icons/facebook.svg" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#" target="_blank">
+                    <img src="/img/icons/instagram.svg" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#" target="_blank">
+                    <img src="/img/icons/twitter.svg" />
+                  </a>
+                </li>
               </ul>
               <div className="email-input">
                 <input className="form-control" type="text" placeholder="Type something here" />
-                <button type="button">&rarr;</button>
+                <button type="button" className="p-0">&rarr;</button>
               </div>
               <ul className="horizontal-links">
-                <li><a href="#" target="_blank">Item 1</a></li>
-                <li><a href="#" target="_blank">Item 2</a></li>
-                <li><a href="#" target="_blank">Item 3</a></li>
-                <li><a href="#" target="_blank">Item 4</a></li>
+                <li>
+                  <Link href="/docs/privacy-policy">
+                    <a>Privacy Policy</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/docs/code-of-conduct">
+                    <a>Code of Conduct</a>
+                  </Link>
+                </li>
               </ul>
             </div>
             <div className="image" style={{ height: "300px" }}></div>
