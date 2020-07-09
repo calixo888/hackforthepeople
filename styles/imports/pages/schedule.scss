@@ -4,9 +4,7 @@ table {
 
 .body {
   height: 300px;
-  overflow-y: scroll;
-  border: 2px solid #ccc;
-  border-radius: 2px;
+  overflow-y: auto;
 }
 
 th {
@@ -29,4 +27,9 @@ table tr:nth-child(odd) {
 table th {
   color: white;
   background-color: $color-primary;
+}
+
+.react-tabs__tab--selected {
+  background-color: $color-primary !important;
+  color: white;
 }

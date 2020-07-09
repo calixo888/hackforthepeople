@@ -22,62 +22,57 @@ export default () => {
             <Tabs>
               <TabList
                 style={{
-                  display: "flex",
-                  justifyContent: "space-around",
+                  display: "grid",
+                  "grid-template-columns": "repeat(auto-fill, minmax(300px, 1fr))",
                   listStyle: "none",
-                  paddingTop: "12px",
+                  paddingLeft: "0",
+                  marginBottom: "0"
                 }}
               >
-                <Tab style={{ cursor: "pointer" }}>Friday</Tab>
-                <Tab style={{ cursor: "pointer" }}>Saturday</Tab>
-                <Tab style={{ cursor: "pointer" }}>Sunday</Tab>
+                <Tab style={{ cursor: "pointer", "padding": "15px", "text-align": "center", "border-top-left-radius": "3px", "border-top-right-radius": "3px" }}>Friday</Tab>
+                <Tab style={{ cursor: "pointer", "padding": "15px", "text-align": "center", "border-top-left-radius": "3px", "border-top-right-radius": "3px" }}>Saturday</Tab>
+                <Tab style={{ cursor: "pointer", "padding": "15px", "text-align": "center", "border-top-left-radius": "3px", "border-top-right-radius": "3px" }}>Sunday</Tab>
               </TabList>
 
               <TabPanel>
                 <table id="friday">
                   <tr>
-                    <th>friday</th>
-                    <th>Test</th>
-                    <th>Test</th>
-                    <th>Test</th>
+                    <th>Event</th>
+                    <th>Time</th>
+                    <th>Link</th>
                   </tr>
                   <tr>
-                    <td>Test</td>
-                    <td>Test</td>
-                    <td>Test</td>
-                    <td>Test</td>
+                    <td>Hackathon starts!</td>
+                    <td>6:00pm EST</td>
+                    <td>None</td>
                   </tr>
                 </table>
               </TabPanel>
               <TabPanel>
                 <table id="saturday">
                   <tr>
-                    <th>saturday</th>
-                    <th>Test</th>
-                    <th>Test</th>
-                    <th>Test</th>
+                    <th>Event</th>
+                    <th>Time</th>
+                    <th>Link</th>
                   </tr>
                   <tr>
-                    <td>Test</td>
-                    <td>Test</td>
-                    <td>Test</td>
-                    <td>Test</td>
+                    <td>Game night!</td>
+                    <td>10:00pm EST</td>
+                    <td>None</td>
                   </tr>
                 </table>
               </TabPanel>
               <TabPanel>
                 <table id="sunday">
                   <tr>
-                    <th>sunday</th>
-                    <th>Test</th>
-                    <th>Test</th>
-                    <th>Test</th>
+                    <th>Event</th>
+                    <th>Time</th>
+                    <th>Link</th>
                   </tr>
                   <tr>
-                    <td>Test</td>
-                    <td>Test</td>
-                    <td>Test</td>
-                    <td>Test</td>
+                    <td>Hackathon ends</td>
+                    <td>3:00pm EST</td>
+                    <td>None</td>
                   </tr>
                 </table>
               </TabPanel>
