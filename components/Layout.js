@@ -67,7 +67,7 @@ export default ({ children }) => {
               </ul>
               <div className="email-input">
                 <input className="form-control" type="text" placeholder="Type something here" />
-                <button type="button">&rarr;</button>
+                <button type="button" className="p-0">&rarr;</button>
               </div>
               <ul className="horizontal-links">
                 <li>
