@@ -24,11 +24,6 @@ export default ({ children }) => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="/resources">
-                  <a className="nav-link">Resources</a>
-                </Link>
-              </li>
-              <li className="nav-item">
                 <Link href="/schedule">
                   <a className="nav-link">Schedule</a>
                 </Link>
@@ -65,10 +60,16 @@ export default ({ children }) => {
                 <button type="button">&rarr;</button>
               </div>
               <ul className="horizontal-links">
-                <li><a href="#" target="_blank">Item 1</a></li>
-                <li><a href="#" target="_blank">Item 2</a></li>
-                <li><a href="#" target="_blank">Item 3</a></li>
-                <li><a href="#" target="_blank">Item 4</a></li>
+                <li>
+                  <Link href="/docs/privacy-policy">
+                    <a>Privacy Policy</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/docs/code-of-conduct">
+                    <a>Code of Conduct</a>
+                  </Link>
+                </li>
               </ul>
             </div>
             <div className="image" style={{ height: "300px" }}></div>
