@@ -1,4 +1,5 @@
 import Layout from '../components/Layout.js';
+import Header from '../components/Header.js';
 import React,{ useState, useEffect } from 'react';
 import ReactModal from 'react-modal';
 
@@ -34,7 +35,6 @@ const trackContent = {
   }
 
 }
- 
 
 export default () => {
 
@@ -175,19 +175,7 @@ export default () => {
         </div>
       </header>
 
-      <section className="about">
-        <div className="container">
-          <div className="about-grid">
-            <div className="image" style={{ height: "300px" }}></div>
-            <div>
-              <h1>About</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Header headerText="About Hack For The People" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris." />
 
       <section className="tracks">
         <div className="container">
