@@ -230,32 +230,11 @@ export default () => {
         <div className="container">
           <h1>Partnerships</h1>
           <div className="partners-grid">
-            <div className="partner">
-              <h1>Partner</h1>
+            <div className="partner p-5">
+              <img src="/img/logos/hackplus.png" />
             </div>
             <div className="partner">
-              <h1>Partner</h1>
-            </div>
-            <div className="partner">
-              <h1>Partner</h1>
-            </div>
-            <div className="partner">
-              <h1>Partner</h1>
-            </div>
-            <div className="partner">
-              <h1>Partner</h1>
-            </div>
-            <div className="partner">
-              <h1>Partner</h1>
-            </div>
-            <div className="partner">
-              <h1>Partner</h1>
-            </div>
-            <div className="partner">
-              <h1>Partner</h1>
-            </div>
-            <div className="partner">
-              <h1>Partner</h1>
+              <img src="/img/logos/cvt.png" />
             </div>
           </div>
         </div>
@@ -263,36 +242,10 @@ export default () => {
 
       <section className="sponsors">
         <div className="container">
-        <h1>Sponsors</h1>
-          <div className="sponsors-grid">
-            <div className="sponsor">
-              <h1>Sponsor</h1>
-            </div>
-            <div className="sponsor">
-              <h1>Sponsor</h1>
-            </div>
-            <div className="sponsor">
-              <h1>Sponsor</h1>
-            </div>
-            <div className="sponsor">
-              <h1>Sponsor</h1>
-            </div>
-            <div className="sponsor">
-              <h1>Sponsor</h1>
-            </div>
-            <div className="sponsor">
-              <h1>Sponsor</h1>
-            </div>
-            <div className="sponsor">
-              <h1>Sponsor</h1>
-            </div>
-            <div className="sponsor">
-              <h1>Sponsor</h1>
-            </div>
-            <div className="sponsor">
-              <h1>Sponsor</h1>
-            </div>
-          </div>
+          <h1>Sponsors</h1>
+          <p>
+            Interested in sponsoring us? Check out our <a href="#" target="_blank">sponsorship prospectus</a>!
+          </p>
         </div>
       </section>
     </Layout>

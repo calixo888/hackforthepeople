@@ -23,10 +23,14 @@ footer {
     margin-bottom: 0;
 
     & li {
-      margin-right: 30px;
+      margin-right: 15px;
 
       & a:hover {
         color: white;
+      }
+
+      & img {
+        width: 25px;
       }
     }
   }
@@ -52,16 +56,6 @@ footer {
 
     .image {
       display: none;
-    }
-
-    .horizontal-links {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-
-      & li {
-        margin-right: 0;
-      }
     }
 
     .email-input {
