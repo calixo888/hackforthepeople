@@ -49,11 +49,23 @@ export default ({ children }) => {
         <div className="container">
           <div className="footer-grid">
             <div>
-              <h1>Footer</h1>
+              <h1>Hack For The People</h1>
               <ul className="horizontal-links">
-                <li><a href="#" target="_blank">Facebook</a></li>
-                <li><a href="#" target="_blank">Instagram</a></li>
-                <li><a href="#" target="_blank">Twitter</a></li>
+                <li>
+                  <a href="#" target="_blank">
+                    <img src="/img/icons/facebook.svg" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#" target="_blank">
+                    <img src="/img/icons/instagram.svg" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#" target="_blank">
+                    <img src="/img/icons/twitter.svg" />
+                  </a>
+                </li>
               </ul>
               <div className="email-input">
                 <input className="form-control" type="text" placeholder="Type something here" />

@@ -23,10 +23,14 @@ footer {
     margin-bottom: 0;
 
     & li {
-      margin-right: 30px;
+      margin-right: 15px;
 
       & a:hover {
         color: white;
+      }
+
+      & img {
+        width: 25px;
       }
     }
   }
