@@ -22,7 +22,14 @@
 }
 
 @media (max-width: 600px) {
-  .goals-header {
-    width: 100%;
+  .goals {
+
+    &-header {
+      width: 100%;
+    }
+
+    &-grid {
+      grid-gap: 15px;
+    }
   }
 }

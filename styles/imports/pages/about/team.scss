@@ -24,3 +24,14 @@
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)) !important;
   grid-gap: 15px !important;
 }
+
+@media (max-width: 600px) {
+  .team-grid {
+      grid-gap: 15px;
+  }
+
+  .coordinators {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)) !important;
+    grid-gap: 15px !important;
+  }
+}
