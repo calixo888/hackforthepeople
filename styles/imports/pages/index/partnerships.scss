@@ -6,12 +6,9 @@
     grid-gap: 15px;
 
     .partner {
-      background-color: $color-primary;
-      padding: 15px;
-      border-radius: 4px;
 
-      & * {
-        color: white;
+      & img {
+        width: 100%;
       }
     }
   }
