@@ -19,3 +19,8 @@
     }
   }
 }
+
+.coordinators {
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)) !important;
+  grid-gap: 15px !important;
+}
