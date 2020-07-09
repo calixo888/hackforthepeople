@@ -34,9 +34,7 @@ export default ({ children }) => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="/register">
-                  <a className="nav-link">Register</a>
-                </Link>
+                <a className="nav-link" href="#" target="_blank">Register</a>
               </li>
             </ul>
           </div>
