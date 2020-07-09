@@ -75,8 +75,11 @@ export default () => {
         <div className="container">
           <h1>Partnerships</h1>
           <div className="partners-grid">
-            <div className="partner">
+            <div className="partner p-5">
               <img src="/img/logos/hackplus.png" />
+            </div>
+            <div className="partner">
+              <img src="/img/logos/cvt.png" />
             </div>
           </div>
         </div>
