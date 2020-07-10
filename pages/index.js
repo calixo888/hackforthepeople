@@ -1,13 +1,10 @@
 import Layout from '../components/Layout.js';
+import Head from 'next/head';
+import Header from '../components/Header.js';
 import React,{ useState, useEffect } from 'react';
 import ReactModal from 'react-modal';
 
-
-
-
-
 export default () => {
-
   var subtitle;
   var overlay;
   const [modalOneIsOpen,setIsOpenOne] = React.useState(false);
@@ -26,14 +23,14 @@ export default () => {
   function openModalFour() {
     setIsOpenFour(true);
   }
- 
+
   function afterOpenModal() {
     // references are now sync'd and can be accessed.
     subtitle.style.color = '#f00';
     document.body.style.backgroundColor = "rgba(50,50,50,0.5)";
     document.body.style.transition = "all 500ms ease-in-out";
   }
- 
+
   function closeModalOne(){
     setIsOpenOne(false);
     document.body.style.backgroundColor = "initial";
@@ -53,6 +50,10 @@ export default () => {
 
   return (
     <Layout>
+      <Head>
+        <title>Hack For The People</title>
+        <meta name="description" content="Check out Hack For The People, an inter-collegiate online hackathon powered by the Coronavirus Visualization Team!" />
+      </Head>
         <ReactModal
           isOpen={modalOneIsOpen}
           onAfterOpen={afterOpenModal}
@@ -61,7 +62,7 @@ export default () => {
           contentLabel="Example Modal"
           className="Modal"
           overlayClassName="Overlay"
-          
+
         >
         <div style={{display:"flex",flexDirection:"row",justifyContent:"flex-end"}}>
           <button onClick={closeModalOne} style={{border:"none",background:"none",fontSize:"30px",fontWeight:200,color:"grey",marginTop:"-5px"}}>X</button>
@@ -80,7 +81,7 @@ export default () => {
           contentLabel="Example Modal"
           className="Modal"
           overlayClassName="Overlay"
-          
+
         >
         <div style={{display:"flex",flexDirection:"row",justifyContent:"flex-end"}}>
           <button onClick={closeModalTwo} style={{border:"none",background:"none",fontSize:"30px",fontWeight:200,color:"grey",marginTop:"-5px"}}>X</button>
@@ -100,7 +101,7 @@ export default () => {
           contentLabel="Example Modal"
           className="Modal"
           overlayClassName="Overlay"
-          
+
         >
         <div style={{display:"flex",flexDirection:"row",justifyContent:"flex-end"}}>
           <button onClick={closeModalThree} style={{border:"none",background:"none",fontSize:"30px",fontWeight:200,color:"grey",marginTop:"-5px"}}>X</button>
@@ -113,7 +114,7 @@ export default () => {
         </ReactModal>
 
 
-       
+
         <ReactModal
           isOpen={modalFourIsOpen}
           onAfterOpen={afterOpenModal}
@@ -121,7 +122,7 @@ export default () => {
           contentLabel="Example Modal"
           className="Modal"
           overlayClassName="Overlay"
-          
+
         >
         <div style={{display:"flex",flexDirection:"row",justifyContent:"flex-end"}}>
           <button onClick={closeModalFour} style={{border:"none",background:"none",fontSize:"30px",fontWeight:200,color:"grey",marginTop:"-5px"}}>X</button>
@@ -152,19 +153,7 @@ export default () => {
         </div>
       </header>
 
-      <section className="about">
-        <div className="container">
-          <div className="about-grid">
-            <div className="image" style={{ height: "300px" }}></div>
-            <div>
-              <h1>About</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Header headerText="About Hack For The People" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris." />
 
       <section className="tracks">
         <div className="container">
@@ -184,7 +173,7 @@ export default () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
               </p>
             </div>
-            <div className="track" onClick={openModalThree} style={{cursor:"pointer"}}> 
+            <div className="track" onClick={openModalThree} style={{cursor:"pointer"}}>
               <img src="/img/illustrations/test.svg"   />
               <h3>Track</h3>
               <p>
