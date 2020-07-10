@@ -4,29 +4,6 @@ import Header from '../components/Header.js';
 import React,{ useState, useEffect } from 'react';
 import ReactModal from 'react-modal';
 
-const trackContent = {
-  one : {
-    title:"1",
-    description: "one",
-    resources:"1\n2\n3\n"
-  },
-  two : {
-    title:"2",
-    description: "two",
-    resources:"1\n2\n3\n"
-  },
-  three : {
-    title:"3",
-    description: "three",
-    resources:"1\n2\n3\n"
-  },
-  four: {
-    title:"4",
-    description: "four",
-    resources:"1\n2\n3\n"
-  }
-}
-
 export default () => {
   var subtitle;
   const [modalOneIsOpen,setIsOpenOne] = React.useState(false);
@@ -49,19 +26,24 @@ export default () => {
   function afterOpenModal() {
     // references are now sync'd and can be accessed.
     subtitle.style.color = '#f00';
+    document.body.style.transition = "all 500ms ease-in-out";
   }
 
   function closeModalOne(){
     setIsOpenOne(false);
+    document.body.style.backgroundColor = "initial";
   }
   function closeModalTwo(){
     setIsOpenTwo(false);
+    document.body.style.backgroundColor = "initial";
   }
   function closeModalThree(){
     setIsOpenThree(false);
+    document.body.style.backgroundColor = "initial";
   }
   function closeModalFour(){
     setIsOpenFour(false);
+    document.body.style.backgroundColor = "initial";
   }
 
   return (
@@ -73,7 +55,7 @@ export default () => {
         <ReactModal
           isOpen={modalOneIsOpen}
           onAfterOpen={afterOpenModal}
-
+          closeTimeoutMS={500}
           onRequestClose={closeModalOne}
           contentLabel="Example Modal"
           className="Modal"
@@ -81,17 +63,18 @@ export default () => {
 
         >
         <div style={{display:"flex",flexDirection:"row",justifyContent:"flex-end"}}>
-          <button onClick={closeModalOne} style={{border:"none",background:"none",fontSize:"30px",fontWeight:200,color:"grey",marginTop:"-5px"}}>X</button>
+          <button onClick={closeModalOne} style={{border:"none",background:"none",fontSize:"30px",fontWeight:200,color:"grey",marginTop:"-5px"}}>&times;</button>
          </div>
          <div style={{display:"flex",flexDirection:"column",alignItems:"center"}}>
-         <h1 ref={_subtitle => (subtitle = _subtitle)}>{trackContent.one.title}</h1>
-         <h2>{trackContent.one.description}</h2>
-          <h3>{trackContent.one.resources}</h3>
+         <h1 ref={_subtitle => (subtitle = _subtitle)}>test</h1>
+         <h2>test</h2>
+          <h3>test</h3>
           </div>
         </ReactModal>
 
         <ReactModal
           isOpen={modalTwoIsOpen}
+          closeTimeoutMS={500}
           onAfterOpen={afterOpenModal}
           onRequestClose={closeModalTwo}
           contentLabel="Example Modal"
@@ -100,18 +83,19 @@ export default () => {
 
         >
         <div style={{display:"flex",flexDirection:"row",justifyContent:"flex-end"}}>
-          <button onClick={closeModalTwo} style={{border:"none",background:"none",fontSize:"30px",fontWeight:200,color:"grey",marginTop:"-5px"}}>X</button>
+          <button onClick={closeModalTwo} style={{border:"none",background:"none",fontSize:"30px",fontWeight:200,color:"grey",marginTop:"-5px"}}>&times;</button>
          </div>
          <div style={{display:"flex",flexDirection:"column",alignItems:"center"}}>
-         <h1 ref={_subtitle => (subtitle = _subtitle)}>{trackContent.two.title}</h1>
-         <h2>{trackContent.two.description}</h2>
-          <h3>{trackContent.two.resources}</h3>
+         <h1 ref={_subtitle => (subtitle = _subtitle)}>test</h1>
+         <h2>test</h2>
+          <h3>test</h3>
           </div>
         </ReactModal>
 
 
         <ReactModal
           isOpen={modalThreeIsOpen}
+          closeTimeoutMS={500}
           onAfterOpen={afterOpenModal}
           onRequestClose={closeModalThree}
           contentLabel="Example Modal"
@@ -120,12 +104,12 @@ export default () => {
 
         >
         <div style={{display:"flex",flexDirection:"row",justifyContent:"flex-end"}}>
-          <button onClick={closeModalThree} style={{border:"none",background:"none",fontSize:"30px",fontWeight:200,color:"grey",marginTop:"-5px"}}>X</button>
+          <button onClick={closeModalThree} style={{border:"none",background:"none",fontSize:"30px",fontWeight:200,color:"grey",marginTop:"-5px"}}>&times;</button>
          </div>
          <div style={{display:"flex",flexDirection:"column",alignItems:"center"}}>
-         <h1 ref={_subtitle => (subtitle = _subtitle)}>{trackContent.three.title}</h1>
-         <h2>{trackContent.three.description}</h2>
-          <h3>{trackContent.three.resources}</h3>
+         <h1 ref={_subtitle => (subtitle = _subtitle)}>test</h1>
+         <h2>test</h2>
+          <h3>test</h3>
           </div>
         </ReactModal>
 
@@ -133,6 +117,7 @@ export default () => {
 
         <ReactModal
           isOpen={modalFourIsOpen}
+          closeTimeoutMS={500}
           onAfterOpen={afterOpenModal}
           onRequestClose={closeModalFour}
           contentLabel="Example Modal"
@@ -141,12 +126,12 @@ export default () => {
 
         >
         <div style={{display:"flex",flexDirection:"row",justifyContent:"flex-end"}}>
-          <button onClick={closeModalOne} style={{border:"none",background:"none",fontSize:"30px",fontWeight:200,color:"grey",marginTop:"-5px"}}>X</button>
+          <button onClick={closeModalFour} style={{border:"none",background:"none",fontSize:"30px",fontWeight:200,color:"grey",marginTop:"-5px"}}>&times;</button>
          </div>
          <div style={{display:"flex",flexDirection:"column",alignItems:"center"}}>
-         <h1 ref={_subtitle => (subtitle = _subtitle)}>{trackContent.four.title}</h1>
-         <h2>{trackContent.four.description}</h2>
-          <h3>{trackContent.four.resources}</h3>
+         <h1 ref={_subtitle => (subtitle = _subtitle)}>test</h1>
+         <h2>test</h2>
+          <h3>test</h3>
           </div>
         </ReactModal>
 
