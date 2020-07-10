@@ -1,9 +1,15 @@
 import Layout from '../components/Layout.js';
 import Header from '../components/Header.js';
+import Head from 'next/head';
 
 export default () => {
   return (
     <Layout>
+      <Head>
+        <title>Hack For The People - About</title>
+        <meta name="description" content="About Hack For The People, an inter-collegiate online hackathon powered by the Coronavirus Visualization Team!" />
+      </Head>
+
       <Header headerText="About Hack For The People" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." />
 
       <section className="goals">
