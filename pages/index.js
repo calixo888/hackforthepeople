@@ -4,37 +4,7 @@ import ReactModal from 'react-modal';
 
 
 
-const trackContent = {
 
-  one : {
-    title:"1",
-    description: "one",
-    resources:"1\n2\n3\n"
-
-
-  },
-
-  two : {
-    title:"2",
-    description: "two",
-    resources:"1\n2\n3\n"
-  },
-
-  three : {
-    title:"3",
-    description: "three",
-    resources:"1\n2\n3\n"
-  },
-
-  four: {
-    title:"4",
-    description: "four",
-    resources:"1\n2\n3\n"
-
-  }
-
-}
- 
 
 export default () => {
 
@@ -79,7 +49,7 @@ export default () => {
         <ReactModal
           isOpen={modalOneIsOpen}
           onAfterOpen={afterOpenModal}
-          
+          closeTimeoutMS={500}
           onRequestClose={closeModalOne}
           contentLabel="Example Modal"
           className="Modal"
@@ -90,9 +60,9 @@ export default () => {
           <button onClick={closeModalOne} style={{border:"none",background:"none",fontSize:"30px",fontWeight:200,color:"grey",marginTop:"-5px"}}>X</button>
          </div>
          <div style={{display:"flex",flexDirection:"column",alignItems:"center"}}>
-         <h1 ref={_subtitle => (subtitle = _subtitle)}>{trackContent.one.title}</h1>
-         <h2>{trackContent.one.description}</h2>
-          <h3>{trackContent.one.resources}</h3>
+         <h1 ref={_subtitle => (subtitle = _subtitle)}>test</h1>
+         <h2>test</h2>
+          <h3>test</h3>
           </div>
         </ReactModal>
 
@@ -109,9 +79,9 @@ export default () => {
           <button onClick={closeModalTwo} style={{border:"none",background:"none",fontSize:"30px",fontWeight:200,color:"grey",marginTop:"-5px"}}>X</button>
          </div>
          <div style={{display:"flex",flexDirection:"column",alignItems:"center"}}>
-         <h1 ref={_subtitle => (subtitle = _subtitle)}>{trackContent.two.title}</h1>
-         <h2>{trackContent.two.description}</h2>
-          <h3>{trackContent.two.resources}</h3>
+         <h1 ref={_subtitle => (subtitle = _subtitle)}>test</h1>
+         <h2>test</h2>
+          <h3>test</h3>
           </div>
         </ReactModal>
 
@@ -129,9 +99,9 @@ export default () => {
           <button onClick={closeModalThree} style={{border:"none",background:"none",fontSize:"30px",fontWeight:200,color:"grey",marginTop:"-5px"}}>X</button>
          </div>
          <div style={{display:"flex",flexDirection:"column",alignItems:"center"}}>
-         <h1 ref={_subtitle => (subtitle = _subtitle)}>{trackContent.three.title}</h1>
-         <h2>{trackContent.three.description}</h2>
-          <h3>{trackContent.three.resources}</h3>
+         <h1 ref={_subtitle => (subtitle = _subtitle)}>test</h1>
+         <h2>test</h2>
+          <h3>test</h3>
           </div>
         </ReactModal>
 
@@ -150,9 +120,9 @@ export default () => {
           <button onClick={closeModalOne} style={{border:"none",background:"none",fontSize:"30px",fontWeight:200,color:"grey",marginTop:"-5px"}}>X</button>
          </div>
          <div style={{display:"flex",flexDirection:"column",alignItems:"center"}}>
-         <h1 ref={_subtitle => (subtitle = _subtitle)}>{trackContent.four.title}</h1>
-         <h2>{trackContent.four.description}</h2>
-          <h3>{trackContent.four.resources}</h3>
+         <h1 ref={_subtitle => (subtitle = _subtitle)}>test</h1>
+         <h2>test</h2>
+          <h3>test</h3>
           </div>
         </ReactModal>
 

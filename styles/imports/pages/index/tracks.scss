@@ -61,8 +61,25 @@
   position: fixed;
   top: 0;
   left: 0;
+  background-color:rgba(128,128,128,0.5);
   right: 0;
   bottom: 0;
+}
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transform: translateY(-100px);
+  transition: all 500ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+  transform: translateY(-100px);
 }
 
 @media (max-width: 600px) {
@@ -88,6 +105,7 @@
     margin: 0;
     padding:0;
     border-radius: 15px;
+   
     width:-webkit-fill-available;
     height:-webkit-fill-available;
 
