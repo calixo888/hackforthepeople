@@ -63,13 +63,14 @@ export default () => {
 
         >
         <div style={{display:"flex",flexDirection:"row",justifyContent:"flex-end"}}>
-          <button onClick={closeModalOne} style={{border:"none",background:"none",fontSize:"30px",fontWeight:200,color:"grey",marginTop:"-5px"}}>&times;</button>
+          <button onClick={closeModalOne} style={{border:"none",background:"none",fontSize:"30px",fontWeight:200,color:"grey",marginTop:"-5px",marginLeft:"-5px"}}>&times;</button>
          </div>
-         <div style={{display:"flex",flexDirection:"column",alignItems:"center"}}>
-         <h1 ref={_subtitle => (subtitle = _subtitle)}>test</h1>
-         <h2>test</h2>
-          <h3>test</h3>
-          </div>
+         <div style={{padding: "50px"}}>
+           <h1 ref={_subtitle => (subtitle = _subtitle)}>Track</h1>
+           <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+           </p>
+        </div>
         </ReactModal>
 
         <ReactModal
@@ -83,13 +84,14 @@ export default () => {
 
         >
         <div style={{display:"flex",flexDirection:"row",justifyContent:"flex-end"}}>
-          <button onClick={closeModalTwo} style={{border:"none",background:"none",fontSize:"30px",fontWeight:200,color:"grey",marginTop:"-5px"}}>&times;</button>
+          <button onClick={closeModalTwo} style={{border:"none",background:"none",fontSize:"30px",fontWeight:200,color:"grey",marginTop:"-5px",marginLeft:"-5px"}}>&times;</button>
          </div>
-         <div style={{display:"flex",flexDirection:"column",alignItems:"center"}}>
-         <h1 ref={_subtitle => (subtitle = _subtitle)}>test</h1>
-         <h2>test</h2>
-          <h3>test</h3>
-          </div>
+         <div style={{padding: "50px"}}>
+           <h1 ref={_subtitle => (subtitle = _subtitle)}>Track</h1>
+           <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+           </p>
+        </div>
         </ReactModal>
 
 
@@ -104,13 +106,14 @@ export default () => {
 
         >
         <div style={{display:"flex",flexDirection:"row",justifyContent:"flex-end"}}>
-          <button onClick={closeModalThree} style={{border:"none",background:"none",fontSize:"30px",fontWeight:200,color:"grey",marginTop:"-5px"}}>&times;</button>
+          <button onClick={closeModalThree} style={{border:"none",background:"none",fontSize:"30px",fontWeight:200,color:"grey",marginTop:"-5px",marginLeft:"-5px"}}>&times;</button>
          </div>
-         <div style={{display:"flex",flexDirection:"column",alignItems:"center"}}>
-         <h1 ref={_subtitle => (subtitle = _subtitle)}>test</h1>
-         <h2>test</h2>
-          <h3>test</h3>
-          </div>
+         <div style={{padding: "50px"}}>
+           <h1 ref={_subtitle => (subtitle = _subtitle)}>Track</h1>
+           <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+           </p>
+        </div>
         </ReactModal>
 
 
@@ -126,13 +129,14 @@ export default () => {
 
         >
         <div style={{display:"flex",flexDirection:"row",justifyContent:"flex-end"}}>
-          <button onClick={closeModalFour} style={{border:"none",background:"none",fontSize:"30px",fontWeight:200,color:"grey",marginTop:"-5px"}}>&times;</button>
+          <button onClick={closeModalFour} style={{border:"none",background:"none",fontSize:"30px",fontWeight:200,color:"grey",marginTop:"-5px",marginLeft:"-5px"}}>&times;</button>
          </div>
-         <div style={{display:"flex",flexDirection:"column",alignItems:"center"}}>
-         <h1 ref={_subtitle => (subtitle = _subtitle)}>test</h1>
-         <h2>test</h2>
-          <h3>test</h3>
-          </div>
+         <div style={{padding: "50px"}}>
+           <h1 ref={_subtitle => (subtitle = _subtitle)}>Track</h1>
+           <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+           </p>
+        </div>
         </ReactModal>
 
 
