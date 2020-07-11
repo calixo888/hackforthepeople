@@ -162,6 +162,11 @@ export default () => {
             </div>
             <div className="member">
               <img src="/img/team/test.jpg" />
+              <h5>Michael Wang</h5>
+              <p>Technology</p>
+            </div>
+            <div className="member">
+              <img src="/img/team/test.jpg" />
               <h5>Trisha Agarwal</h5>
               <p>Technology</p>
             </div>
