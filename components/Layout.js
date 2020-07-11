@@ -50,18 +50,28 @@ export default ({ children }) => {
               <h1>Hack For The People</h1>
               <ul className="horizontal-links">
                 <li>
-                  <a href="#" target="_blank">
+                  <a href="https://www.facebook.com/joinCVT" target="_blank">
                     <img src="/img/icons/facebook.svg" />
                   </a>
                 </li>
                 <li>
-                  <a href="#" target="_blank">
+                  <a href="https://www.instagram.com/joincvt/" target="_blank">
                     <img src="/img/icons/instagram.svg" />
                   </a>
                 </li>
                 <li>
-                  <a href="#" target="_blank">
+                  <a href="https://twitter.com/joincvt" target="_blank">
                     <img src="/img/icons/twitter.svg" />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/calixo888/hackforthepeople" target="_blank">
+                    <img src="/img/icons/github.svg" />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/company/covid-visualization-team/" target="_blank">
+                    <img src="/img/icons/linkedin2.svg" />
                   </a>
                 </li>
               </ul>
