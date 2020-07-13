@@ -1,10 +1,20 @@
 .header {
-  background-color: lightblue;
+  position: relative;
+  background-color: transparent;
   text-align: center;
+  background-color: #f7f7f7;
 
   & div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 500px;
     margin: 0 auto;
+  }
+
+  & * {
+    color: black;
   }
 }
 
@@ -13,6 +23,10 @@
     padding: 25px 0;
 
     & div {
+      position: relative;
+      top: auto;
+      left: auto;
+      transform: none;
       width: 90%;
     }
   }
