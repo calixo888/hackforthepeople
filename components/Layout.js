@@ -6,7 +6,9 @@ export default ({ children }) => {
       <nav className="navbar navbar-expand-md navbar-light">
         <div className="container">
           <Link href="/">
-            <a className="navbar-brand">Hack For The People</a>
+            <a className="navbar-brand">
+              <img style={{ "width": "200px" }} src="/img/logos/hftp-horizontal.svg" />
+            </a>
           </Link>
           <button className="navbar-toggler" data-toggle="collapse" data-target="#navbar-target">
             <span className="navbar-toggler-icon"></span>

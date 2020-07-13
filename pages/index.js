@@ -1,5 +1,6 @@
 import Layout from '../components/Layout.js';
 import Head from 'next/head';
+import Link from 'next/link';
 import Header from '../components/Header.js';
 import React,{ useState, useEffect } from 'react';
 import ReactModal from 'react-modal';
@@ -149,8 +150,17 @@ export default () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
               </h4>
               <div className="cta-buttons">
-                <button className="btn w-100 btn-outline-light" type="button">Button 1</button>
-                <button className="btn w-100 btn-light" type="button">Button 2</button>
+
+                <button className="btn w-100 btn-outline-light" type="button">
+                  <Link href="/about">
+                    <a className="nav-link">Learn More</a>
+                  </Link>
+                </button>
+                <button className="btn w-100 btn-light" type="button">
+                  <Link href="#" target="_blank">
+                    <a>Register</a>
+                  </Link>
+                </button>
               </div>
             </div>
             <div className="image" style={{ height: "300px" }}></div>
@@ -201,10 +211,10 @@ export default () => {
           <h1>Partnerships</h1>
           <div className="partners-grid">
             <div className="partner p-5">
-              <img src="/img/logos/hackplus.png" />
+              <img src="/img/logos/partners/hackplus.png" />
             </div>
             <div className="partner">
-              <img src="/img/logos/cvt.png" />
+              <img src="/img/logos/partners/cvt.png" />
             </div>
           </div>
         </div>
