@@ -157,10 +157,9 @@ export default () => {
                   </Link>
                 </button>
                 <button className="btn w-100 btn-light" type="button">
-                  <Link href="#" target="_blank">
-                    <a>Register</a>
-                  </Link>
+                  <a className="btn w-100 btn-light" style={{ "align-items": "center" }} href="#" target="_blank">Register</a>
                 </button>
+
               </div>
             </div>
             <div className="image" style={{ height: "300px" }}></div>
