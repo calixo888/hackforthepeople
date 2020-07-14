@@ -169,7 +169,7 @@ export default () => {
 
       <Header headerText="About Hack For The People" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris." />
 
-      <img src="/img/waves/tracks-top.svg" />
+      <img style={{ "background-color": "#f7f7f7" }} src="/img/waves/tracks-top.svg" />
       <section className="tracks">
         <div className="container">
           <h1>Tracks</h1>
