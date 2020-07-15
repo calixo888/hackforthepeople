@@ -263,24 +263,20 @@ export default () => {
                 eiusmod tempor incididunt.
               </h4>
               <div className="cta-buttons">
-                <button className="btn w-100 btn-outline-light" type="button">
-                  <Link className="btn w-100 btn-outline-light" href="/about">
-                    <a>Learn More</a>
-                  </Link>
-                </button>
-                <button className="btn w-100 btn-light" type="button">
-                  <a
-                    className="btn w-100 btn-light"
-                    style={{ "align-items": "center" }}
-                    href="#"
-                    target="_blank"
-                  >
-                    Register
-                  </a>
-                </button>
+                <Link href="/about">
+                  <a className="btn w-100 btn-outline-light">Learn More</a>
+                </Link>
+                <a
+                  className="btn w-100 btn-light"
+                  style={{ "align-items": "center" }}
+                  href="#"
+                  target="_blank"
+                >
+                  Register
+                </a>
               </div>
             </div>
-            <div className="image" style={{ height: "300px" }}></div>
+            <img src="/img/illustrations/header.svg" />
           </div>
         </div>
       </header>
@@ -299,7 +295,7 @@ export default () => {
               onClick={openModalOne}
               style={{ cursor: "pointer" }}
             >
-              <img src="/img/illustrations/test.svg" />
+              <img className="mb-3" src="/img/tracks/test.svg" />
               <h3>Track</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -312,7 +308,7 @@ export default () => {
               onClick={openModalTwo}
               style={{ cursor: "pointer" }}
             >
-              <img src="/img/illustrations/test.svg" />
+              <img className="mb-3" src="/img/tracks/test.svg" />
               <h3>Track</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -325,7 +321,7 @@ export default () => {
               onClick={openModalThree}
               style={{ cursor: "pointer" }}
             >
-              <img src="/img/illustrations/test.svg" />
+              <img className="mb-3" src="/img/tracks/test.svg" />
               <h3>Track</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -338,7 +334,7 @@ export default () => {
               onClick={openModalFour}
               style={{ cursor: "pointer" }}
             >
-              <img src="/img/illustrations/test.svg" />
+              <img className="mb-3" src="/img/tracks/test.svg" />
               <h3>Track</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

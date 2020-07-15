@@ -94,7 +94,7 @@ export default ({ children }) => {
                 </li>
               </ul>
             </div>
-            <div className="image" style={{ height: "300px" }}></div>
+            <img className="mobile-disappear" src="/img/illustrations/footer.svg" />
           </div>
           <div>
             <small>&copy; 2020 Hack For The People.</small>
