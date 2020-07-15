@@ -1,0 +1,28 @@
+.prizes {
+  padding: 15px;
+  margin: 10vh 0;
+
+  .card-swiper {
+    cursor: pointer;
+    border: 2px solid #378cf7;
+
+    border-radius: 10px;
+
+    text-align: center;
+  }
+
+  .img-swipe {
+    margin-top: 15px;
+    width: 80%;
+    border-radius: 5px 5px 5px 5px;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  h3 {
+    font-weight: 500;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+}
