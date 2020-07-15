@@ -45,7 +45,6 @@ export default ({ children }) => {
 
       {children}
 
-      <img style={{ "width": "100%" }} src="/img/waves/footer.svg" />
       <footer>
         <div className="container">
           <div className="footer-grid">

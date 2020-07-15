@@ -290,10 +290,6 @@ export default () => {
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
       />
 
-      <img
-        style={{ "background-color": "#f7f7f7" }}
-        src="/img/waves/tracks-top.svg"
-      />
       <section className="tracks">
         <div className="container">
           <h1>Tracks</h1>
@@ -353,7 +349,6 @@ export default () => {
           </div>
         </div>
       </section>
-      <img src="/img/waves/tracks-bottom.svg" />
 
       <section className="partnerships">
         <div className="container">
