@@ -152,8 +152,8 @@ export default () => {
               <div className="cta-buttons">
 
                 <button className="btn w-100 btn-outline-light" type="button">
-                  <Link href="/about">
-                    <a className="nav-link">Learn More</a>
+                  <Link className="btn w-100 btn-outline-light" href="/about">
+                    <a>Learn More</a>
                   </Link>
                 </button>
                 <button className="btn w-100 btn-light" type="button">
@@ -169,6 +169,7 @@ export default () => {
 
       <Header headerText="About Hack For The People" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris." />
 
+      <img style={{ "background-color": "#f7f7f7" }} src="/img/waves/tracks-top.svg" />
       <section className="tracks">
         <div className="container">
           <h1>Tracks</h1>
@@ -204,6 +205,7 @@ export default () => {
           </div>
         </div>
       </section>
+      <img src="/img/waves/tracks-bottom.svg" />
 
       <section className="partnerships">
         <div className="container">
