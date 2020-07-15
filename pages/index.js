@@ -355,6 +355,33 @@ export default () => {
       </section>
       <img src="/img/waves/tracks-bottom.svg" />
 
+      <section className="partnerships">
+        <div className="container">
+          <h1>Partnerships</h1>
+          <div className="partners-grid">
+            <div className="partner p-5">
+              <img src="/img/logos/partners/hackplus.png" />
+            </div>
+            <div className="partner">
+              <img src="/img/logos/partners/cvt.png" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="sponsors">
+        <div className="container">
+          <h1>Sponsors</h1>
+          <p>
+            Interested in sponsoring us? Check out our{" "}
+            <a href="#" target="_blank">
+              sponsorship prospectus
+            </a>
+            !
+          </p>
+        </div>
+      </section>
+
       <section className="prizes">
         <div className="container">
           <h1>Prizes</h1>
@@ -400,33 +427,6 @@ export default () => {
               <p>lorem</p>
             </div>
           </Swiper>
-        </div>
-      </section>
-
-      <section className="partnerships">
-        <div className="container">
-          <h1>Partnerships</h1>
-          <div className="partners-grid">
-            <div className="partner p-5">
-              <img src="/img/logos/partners/hackplus.png" />
-            </div>
-            <div className="partner">
-              <img src="/img/logos/partners/cvt.png" />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="sponsors">
-        <div className="container">
-          <h1>Sponsors</h1>
-          <p>
-            Interested in sponsoring us? Check out our{" "}
-            <a href="#" target="_blank">
-              sponsorship prospectus
-            </a>
-            !
-          </p>
         </div>
       </section>
     </Layout>
