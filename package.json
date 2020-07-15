@@ -11,8 +11,10 @@
     "next": "9.4.4",
     "react": "16.13.1",
     "react-dom": "16.13.1",
+    "react-id-swiper": "^4.0.0",
     "react-modal": "^3.11.2",
     "react-tabs": "^3.1.1",
-    "sass": "^1.26.9"
+    "sass": "^1.26.9",
+    "swiper": "^6.0.3"
   }
 }

@@ -60,7 +60,7 @@ export default () => {
         <div className="container">
           <div className="team-grid">
             <div className="member">
-              <img src="/img/team/default.jpg" />
+              <img src="/img/team/kevin-w.jpg" />
               <h5>Kevin Wang</h5>
               <p>Lead Director</p>
             </div>
@@ -93,7 +93,7 @@ export default () => {
               <p>Operations</p>
             </div>
             <div className="member">
-              <img src="/img/team/default.jpg" />
+              <img src="/img/team/darren.jpg" />
               <h5>Darren Chang</h5>
               <p>Operations</p>
             </div>
