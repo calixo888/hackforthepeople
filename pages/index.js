@@ -52,10 +52,7 @@ export default () => {
   const params = {
     slidesPerView: 5,
     spaceBetween: 50,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
+    grabCursor: true,
     breakpoints: {
       1024: {
         slidesPerView: 4,
@@ -377,42 +374,42 @@ export default () => {
         <div className="container">
           <h1>Prizes</h1>
           <Swiper {...params}>
-            <div className="card-swiper">
+            <div className="card-swiper prize">
               <img className="img-swipe" src="/img/team/default.jpg" />
               <h3>Slide 1</h3>
               <p>lorem</p>
             </div>
-            <div className="card-swiper">
+            <div className="card-swiper prize">
               <img className="img-swipe" src="/img/team/default.jpg" />
               <h3>Slide 2</h3>
               <p>lorem</p>
             </div>
-            <div className="card-swiper">
+            <div className="card-swiper prize">
               <img className="img-swipe" src="/img/team/default.jpg" />
               <h3>Slide 3</h3>
               <p>lorem</p>
             </div>
-            <div className="card-swiper">
+            <div className="card-swiper prize">
               <img className="img-swipe" src="/img/team/default.jpg" />
               <h3>Slide 4</h3>
               <p>lorem</p>
             </div>
-            <div className="card-swiper">
+            <div className="card-swiper prize">
               <img className="img-swipe" src="/img/team/default.jpg" />
               <h3>Slide 5</h3>
               <p>lorem</p>
             </div>
-            <div className="card-swiper">
+            <div className="card-swiper prize">
               <img className="img-swipe" src="/img/team/default.jpg" />
               <h3>Slide 6</h3>
               <p>lorem</p>
             </div>
-            <div className="card-swiper">
+            <div className="card-swiper prize">
               <img className="img-swipe" src="/img/team/default.jpg" />
               <h3>Slide 7</h3>
               <p>lorem</p>
             </div>
-            <div className="card-swiper">
+            <div className="card-swiper prize">
               <img className="img-swipe" src="/img/team/default.jpg" />
               <h3>Slide 8</h3>
               <p>lorem</p>

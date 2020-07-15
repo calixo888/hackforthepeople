@@ -49,7 +49,7 @@ export default ({ children }) => {
         <div className="container">
           <div className="footer-grid">
             <div>
-              <h1>Hack For The People</h1>
+              <h1>Get in touch!</h1>
               <ul className="horizontal-links">
                 <li>
                   <a href="https://www.facebook.com/joinCVT" target="_blank">
