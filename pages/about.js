@@ -18,40 +18,6 @@ export default () => {
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
       />
 
-      <section className="goals">
-        <div className="container">
-          <div className="goals-header">
-            <h1>Goals</h1>
-            <p>
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat
-            </p>
-          </div>
-          <div className="goals-grid mt-5">
-            <div className="goal">
-              <img src="/img/team/test.jpg" />
-              <h3>Goal</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-            <div className="goal">
-              <img src="/img/team/test.jpg" />
-              <h3>Goal</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-            <div className="goal">
-              <img src="/img/team/test.jpg" />
-              <h3>Goal</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-            <div className="goal">
-              <img src="/img/team/test.jpg" />
-              <h3>Goal</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <Header
         headerText="Meet the Team!"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."

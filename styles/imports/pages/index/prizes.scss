@@ -1,9 +1,10 @@
 .prizes {
-  height: 70vh;
+  padding: 15px;
+  margin: 10vh 0;
 
   .card-swiper {
+    cursor: pointer;
     border: 2px solid #378cf7;
-    color: #378cf7;
 
     border-radius: 10px;
 
@@ -13,7 +14,7 @@
   .img-swipe {
     margin-top: 15px;
     width: 80%;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 5px 5px 5px 5px;
     object-fit: cover;
     margin-bottom: 15px;
   }

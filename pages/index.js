@@ -356,48 +356,51 @@ export default () => {
       <img src="/img/waves/tracks-bottom.svg" />
 
       <section className="prizes">
-        <Swiper {...params}>
-          <div className="card-swiper">
-            <img className="img-swipe" src="/img/team/default.jpg" />
-            <h3>Slide 1</h3>
-            <p>lorem</p>
-          </div>
-          <div className="card-swiper">
-            <img className="img-swipe" src="/img/team/default.jpg" />
-            <h3>Slide 2</h3>
-            <p>lorem</p>
-          </div>
-          <div className="card-swiper">
-            <img className="img-swipe" src="/img/team/default.jpg" />
-            <h3>Slide 3</h3>
-            <p>lorem</p>
-          </div>
-          <div className="card-swiper">
-            <img className="img-swipe" src="/img/team/default.jpg" />
-            <h3>Slide 4</h3>
-            <p>lorem</p>
-          </div>
-          <div className="card-swiper">
-            <img className="img-swipe" src="/img/team/default.jpg" />
-            <h3>Slide 5</h3>
-            <p>lorem</p>
-          </div>
-          <div className="card-swiper">
-            <img className="img-swipe" src="/img/team/default.jpg" />
-            <h3>Slide 6</h3>
-            <p>lorem</p>
-          </div>
-          <div className="card-swiper">
-            <img className="img-swipe" src="/img/team/default.jpg" />
-            <h3>Slide 7</h3>
-            <p>lorem</p>
-          </div>
-          <div className="card-swiper">
-            <img className="img-swipe" src="/img/team/default.jpg" />
-            <h3>Slide 8</h3>
-            <p>lorem</p>
-          </div>
-        </Swiper>
+        <div className="container">
+          <h1>Prizes</h1>
+          <Swiper {...params}>
+            <div className="card-swiper">
+              <img className="img-swipe" src="/img/team/default.jpg" />
+              <h3>Slide 1</h3>
+              <p>lorem</p>
+            </div>
+            <div className="card-swiper">
+              <img className="img-swipe" src="/img/team/default.jpg" />
+              <h3>Slide 2</h3>
+              <p>lorem</p>
+            </div>
+            <div className="card-swiper">
+              <img className="img-swipe" src="/img/team/default.jpg" />
+              <h3>Slide 3</h3>
+              <p>lorem</p>
+            </div>
+            <div className="card-swiper">
+              <img className="img-swipe" src="/img/team/default.jpg" />
+              <h3>Slide 4</h3>
+              <p>lorem</p>
+            </div>
+            <div className="card-swiper">
+              <img className="img-swipe" src="/img/team/default.jpg" />
+              <h3>Slide 5</h3>
+              <p>lorem</p>
+            </div>
+            <div className="card-swiper">
+              <img className="img-swipe" src="/img/team/default.jpg" />
+              <h3>Slide 6</h3>
+              <p>lorem</p>
+            </div>
+            <div className="card-swiper">
+              <img className="img-swipe" src="/img/team/default.jpg" />
+              <h3>Slide 7</h3>
+              <p>lorem</p>
+            </div>
+            <div className="card-swiper">
+              <img className="img-swipe" src="/img/team/default.jpg" />
+              <h3>Slide 8</h3>
+              <p>lorem</p>
+            </div>
+          </Swiper>
+        </div>
       </section>
 
       <section className="partnerships">
