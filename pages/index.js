@@ -305,8 +305,12 @@ export default () => {
               onClick={openModalOne}
               style={{ cursor: "pointer" }}
             >
-              <img className="mb-3" src="/img/tracks/test.svg" />
-              <h3>Track</h3>
+              <img
+                className="mb-3 full-image"
+                src="/img/tracks/culture.svg"
+                style={{ height: "167px" }}
+              />
+              <h3>Sociocultural</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -318,8 +322,8 @@ export default () => {
               onClick={openModalTwo}
               style={{ cursor: "pointer" }}
             >
-              <img className="mb-3" src="/img/tracks/test.svg" />
-              <h3>Track</h3>
+              <img className="mb-3 half-image" src="/img/tracks/economic.svg" />
+              <h3>Economic</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -331,8 +335,11 @@ export default () => {
               onClick={openModalThree}
               style={{ cursor: "pointer" }}
             >
-              <img className="mb-3" src="/img/tracks/test.svg" />
-              <h3>Track</h3>
+              <img
+                className="mb-3 half-image"
+                src="/img/tracks/political.svg"
+              />
+              <h3>Political</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -344,8 +351,11 @@ export default () => {
               onClick={openModalFour}
               style={{ cursor: "pointer" }}
             >
-              <img className="mb-3" src="/img/tracks/test.svg" />
-              <h3>Track</h3>
+              <img
+                className="mb-3 half-image"
+                src="/img/tracks/environmental.svg"
+              />
+              <h3>Environmental</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut

@@ -16,17 +16,13 @@
       width: 100%;
       padding: 30px 15px;
       border-radius: 5px;
-      box-shadow: 0 5px 30px rgba(0,0,0,.1);
+      box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
       cursor: pointer;
-      transition: all .2s;
+      transition: all 0.2s;
 
       &:hover {
-        box-shadow: 0 15px 40px rgba(0,0,0,.2);
+        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
         transform: translateY(-5px);
-      }
-
-      & img {
-        width: 50%;
       }
 
       & p {
@@ -52,8 +48,8 @@
   background-color: white;
   border-radius: 4px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  height:70vh;
-  width:50vw;
+  height: 70vh;
+  width: 50vw;
 }
 
 @media (max-width: 768px) {
@@ -66,7 +62,7 @@
 .Overlay {
   position: fixed;
   top: 0;
-  background-color: rgba(30,30,30,0.5);
+  background-color: rgba(30, 30, 30, 0.5);
   left: 0;
   right: 0;
   bottom: 0;
@@ -93,7 +89,6 @@
     grid-template-columns: repeat(auto-fill, 100%) !important;
 
     .track {
-
       & p {
         width: 100% !important;
       }
@@ -101,22 +96,26 @@
   }
   .Modal {
     margin: 0;
-    padding:0;
+    padding: 0;
     border-radius: 15px;
-    width:-webkit-fill-available;
-    height:-webkit-fill-available;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
   }
 
   .Overlay {
     margin: 0;
-    padding:0;
+    padding: 0;
     border-radius: 15px;
 
-    width:-webkit-fill-available;
-    height:-webkit-fill-available;
-
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
   }
+}
 
+.full-image {
+  width: 90%;
+}
 
-
+.half-image {
+  width: 50%;
 }
