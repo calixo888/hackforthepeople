@@ -23,3 +23,9 @@ nav {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px;
 }
+
+@media (max-width: 600px) {
+  .mobile-disappear {
+    display: none;
+  }
+}

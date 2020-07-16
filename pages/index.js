@@ -65,6 +65,7 @@ export default () => {
       el: ".swiper-pagination",
       clickable: true,
     },
+    grabCursor: true,
     breakpoints: {
       1024: {
         slidesPerView: 4,
@@ -272,24 +273,20 @@ export default () => {
                 eiusmod tempor incididunt.
               </h4>
               <div className="cta-buttons">
-                <button className="btn w-100 btn-outline-light" type="button">
-                  <Link className="btn w-100 btn-outline-light" href="/about">
-                    <a>Learn More</a>
-                  </Link>
-                </button>
-                <button className="btn w-100 btn-light" type="button">
-                  <a
-                    className="btn w-100 btn-light"
-                    style={{ "align-items": "center" }}
-                    href="#"
-                    target="_blank"
-                  >
-                    Register
-                  </a>
-                </button>
+                <Link href="/about">
+                  <a className="btn w-100 btn-outline-light">Learn More</a>
+                </Link>
+                <a
+                  className="btn w-100 btn-light"
+                  style={{ "align-items": "center" }}
+                  href="#"
+                  target="_blank"
+                >
+                  Register
+                </a>
               </div>
             </div>
-            <div className="image" style={{ height: "300px" }}></div>
+            <img src="/img/illustrations/header.svg" />
           </div>
         </div>
       </header>
@@ -299,10 +296,6 @@ export default () => {
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
       />
 
-      <img
-        style={{ "background-color": "#f7f7f7" }}
-        src="/img/waves/tracks-top.svg"
-      />
       <section className="tracks">
         <div className="container">
           <h1>Tracks</h1>
@@ -312,7 +305,7 @@ export default () => {
               onClick={openModalOne}
               style={{ cursor: "pointer" }}
             >
-              <img src="/img/illustrations/test.svg" />
+              <img className="mb-3" src="/img/tracks/test.svg" />
               <h3>Track</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -325,7 +318,7 @@ export default () => {
               onClick={openModalTwo}
               style={{ cursor: "pointer" }}
             >
-              <img src="/img/illustrations/test.svg" />
+              <img className="mb-3" src="/img/tracks/test.svg" />
               <h3>Track</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -338,7 +331,7 @@ export default () => {
               onClick={openModalThree}
               style={{ cursor: "pointer" }}
             >
-              <img src="/img/illustrations/test.svg" />
+              <img className="mb-3" src="/img/tracks/test.svg" />
               <h3>Track</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -351,7 +344,7 @@ export default () => {
               onClick={openModalFour}
               style={{ cursor: "pointer" }}
             >
-              <img src="/img/illustrations/test.svg" />
+              <img className="mb-3" src="/img/tracks/test.svg" />
               <h3>Track</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -362,7 +355,6 @@ export default () => {
           </div>
         </div>
       </section>
-      <img src="/img/waves/tracks-bottom.svg" />
 
       <section className="partnerships">
         <div className="container">
@@ -395,42 +387,42 @@ export default () => {
         <div className="container">
           <h1>Prizes</h1>
           <Swiper {...params}>
-            <div className="card-swiper">
+            <div className="card-swiper prize">
               <img className="img-swipe" src="/img/team/default.jpg" />
               <h3>Slide 1</h3>
               <p>lorem</p>
             </div>
-            <div className="card-swiper">
+            <div className="card-swiper prize">
               <img className="img-swipe" src="/img/team/default.jpg" />
               <h3>Slide 2</h3>
               <p>lorem</p>
             </div>
-            <div className="card-swiper">
+            <div className="card-swiper prize">
               <img className="img-swipe" src="/img/team/default.jpg" />
               <h3>Slide 3</h3>
               <p>lorem</p>
             </div>
-            <div className="card-swiper">
+            <div className="card-swiper prize">
               <img className="img-swipe" src="/img/team/default.jpg" />
               <h3>Slide 4</h3>
               <p>lorem</p>
             </div>
-            <div className="card-swiper">
+            <div className="card-swiper prize">
               <img className="img-swipe" src="/img/team/default.jpg" />
               <h3>Slide 5</h3>
               <p>lorem</p>
             </div>
-            <div className="card-swiper">
+            <div className="card-swiper prize">
               <img className="img-swipe" src="/img/team/default.jpg" />
               <h3>Slide 6</h3>
               <p>lorem</p>
             </div>
-            <div className="card-swiper">
+            <div className="card-swiper prize">
               <img className="img-swipe" src="/img/team/default.jpg" />
               <h3>Slide 7</h3>
               <p>lorem</p>
             </div>
-            <div className="card-swiper">
+            <div className="card-swiper prize">
               <img className="img-swipe" src="/img/team/default.jpg" />
               <h3>Slide 8</h3>
               <p>lorem</p>

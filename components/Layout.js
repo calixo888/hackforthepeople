@@ -45,12 +45,11 @@ export default ({ children }) => {
 
       {children}
 
-      <img style={{ "width": "100%" }} src="/img/waves/footer.svg" />
       <footer>
         <div className="container">
           <div className="footer-grid">
             <div>
-              <h1>Hack For The People</h1>
+              <h1>Get in touch!</h1>
               <ul className="horizontal-links">
                 <li>
                   <a href="https://www.facebook.com/joinCVT" target="_blank">
@@ -95,7 +94,7 @@ export default ({ children }) => {
                 </li>
               </ul>
             </div>
-            <div className="image" style={{ height: "300px" }}></div>
+            <img className="mobile-disappear" src="/img/illustrations/footer.svg" />
           </div>
           <div>
             <small>&copy; 2020 Hack For The People.</small>
