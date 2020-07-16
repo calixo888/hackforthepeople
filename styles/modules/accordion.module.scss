@@ -2,13 +2,13 @@
   border-bottom: 1px solid #ccc;
   cursor: pointer;
   padding: 10px 15px;
-  transition: all .2s;
+  transition: all 0.2s;
 
   & h4 {
     margin-bottom: 0;
 
     &:after {
-      content: '\02795';
+      content: "\02795";
       font-size: 1.5rem;
       color: #888;
       float: right;

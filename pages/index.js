@@ -51,7 +51,16 @@ export default () => {
 
   const params = {
     slidesPerView: 5,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
     spaceBetween: 50,
+    autoplay: 2000,
+    autoplayDisableOnInteraction: false,
+    loop: true,
+    paginationClickable: true,
+    direction: "horizontal",
     pagination: {
       el: ".swiper-pagination",
       clickable: true,

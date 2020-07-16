@@ -1,4 +1,5 @@
-import styles from '../styles/modules/accordion.module.scss'
+import styles from "../styles/modules/accordion.module.scss";
+import { useState } from "react";
 
 export default ({ title, content }) => {
   const extend = (e) => {
@@ -8,20 +9,18 @@ export default ({ title, content }) => {
     } else {
       panel.style.maxHeight = panel.scrollHeight + "px";
     }
-  }
+  };
 
   return (
     <div className={styles.accordion}>
       <div onClick={extend}>
-        <h4>
-          {title}
-        </h4>
+        <h4>{title}</h4>
       </div>
       <div className={styles.panel}>
-        <br/>
+        <br />
         <p>{content}</p>
-        <br/>
+        <br />
       </div>
     </div>
-  )
-}
+  );
+};
