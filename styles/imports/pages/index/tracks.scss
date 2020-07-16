@@ -7,8 +7,8 @@
 
   .track-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-gap: 75px;
 
     .track {
       background-color: white;
@@ -26,6 +26,11 @@
       }
 
       & p {
+        width: 75%;
+        margin: 0 auto;
+      }
+
+      & img {
         width: 75%;
         margin: 0 auto;
       }
@@ -112,10 +117,9 @@
   }
 }
 
-.full-image {
-  width: 90%;
-}
-
-.half-image {
-  width: 50%;
+@media (max-width: 768px) {
+  .track-grid {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 30px;
+  }
 }

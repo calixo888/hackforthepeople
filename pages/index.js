@@ -307,8 +307,8 @@ export default () => {
             >
               <img
                 className="mb-3 full-image"
-                src="/img/tracks/culture.svg"
-                style={{ height: "167px" }}
+                src="/img/tracks/social.svg"
+                style={{ height: "67%" }}
               />
               <h3>Sociocultural</h3>
               <p>
