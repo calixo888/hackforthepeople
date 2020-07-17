@@ -327,9 +327,11 @@ export default () => {
               />
               <h3>Sociocultural</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+                Help develop solutions aiming to bridge societal gaps regarding
+                social and cultural issues. Such solutions range from developing
+                a mobile application that easily allows users to look up police
+                officer’s badge number and precinct, to a web application that
+                calculates the likelihood of incarceration.
               </p>
             </div>
             <div
@@ -340,9 +342,10 @@ export default () => {
               <img className="mb-3 half-image" src="/img/tracks/economic.svg" />
               <h3>Economic</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+                Tackle both current and potential emerging issues related to our
+                economy. Solutions that will better business, solve policy
+                issues, and even household innovations that can alleviate the
+                stress of COVID-19 are welcomed.
               </p>
             </div>
             <div
@@ -356,9 +359,11 @@ export default () => {
               />
               <h3 style={{ margin: "-10px" }}>Political</h3>
               <p style={{ marginTop: "20px" }}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+                Promote and empower civic engagement with a focus on current
+                issues in policy. These projects include any sort of technology
+                that enhances the addressing of public concerns, protecting
+                public values, or optimizes the process for citizens to make a
+                difference and get their voices and opinions heard.
               </p>
             </div>
             <div
@@ -372,9 +377,11 @@ export default () => {
               />
               <h3>Environmental</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+                Focus on the intersection between technology and sustainability.
+                Projects under the Environmental track should aim to provide a
+                platform to help our world. Whether through curbing climate
+                change or delivering a sustainable and affordable alternative to
+                current technologies, the skies the limit!
               </p>
             </div>
           </div>
