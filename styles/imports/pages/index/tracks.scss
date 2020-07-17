@@ -31,8 +31,7 @@
       }
 
       & img {
-        width: 75%;
-        margin: 0 auto;
+        width: 50%;
       }
 
       & * {
@@ -120,6 +119,6 @@
 @media (max-width: 768px) {
   .track-grid {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-gap: 30px;
+    grid-gap: 15px;
   }
 }

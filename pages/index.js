@@ -308,7 +308,7 @@ export default () => {
               <img
                 className="mb-3 full-image"
                 src="/img/tracks/social.svg"
-                style={{ height: "67%" }}
+                style={{ height: "60%" }}
               />
               <h3>Sociocultural</h3>
               <p>
@@ -339,8 +339,8 @@ export default () => {
                 className="mb-3 half-image"
                 src="/img/tracks/political.svg"
               />
-              <h3>Political</h3>
-              <p>
+              <h3 style={{ margin: "-10px" }}>Political</h3>
+              <p style={{ marginTop: "20px" }}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris.
