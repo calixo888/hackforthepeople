@@ -127,6 +127,11 @@ export default () => {
           </button>
         </div>
         <div style={{ padding: "50px" }}>
+          <img
+            src="/img/tracks/social.svg"
+            style={{ height: "30vh", paddingBottom: "2vh" }}
+          />
+
           <h1 ref={(_subtitle) => (subtitle = _subtitle)}>Sociocultural</h1>
           <p>
             <strong>
@@ -173,6 +178,10 @@ export default () => {
           </button>
         </div>
         <div style={{ padding: "50px" }}>
+          <img
+            src="/img/tracks/economic.svg"
+            style={{ height: "30vh", paddingBottom: "2vh" }}
+          />
           <h1 ref={(_subtitle) => (subtitle = _subtitle)}>Economic</h1>
           <p>
             <strong>
@@ -218,6 +227,10 @@ export default () => {
           </button>
         </div>
         <div style={{ padding: "50px" }}>
+          <img
+            src="/img/tracks/political.svg"
+            style={{ height: "30vh", paddingBottom: "2vh" }}
+          />
           <h1 ref={(_subtitle) => (subtitle = _subtitle)}>Political</h1>
           <p>
             <strong>
@@ -265,6 +278,10 @@ export default () => {
           </button>
         </div>
         <div style={{ padding: "50px" }}>
+          <img
+            src="/img/tracks/environmental.svg"
+            style={{ height: "30vh", paddingBottom: "2vh" }}
+          />
           <h1 ref={(_subtitle) => (subtitle = _subtitle)}>Environmental</h1>
           <p>
             <strong>
@@ -415,7 +432,7 @@ export default () => {
         </div>
       </section>
 
-      <section className="prizes">
+      {/*<section className="prizes">
         <div className="container">
           <h1>Prizes</h1>
           <Swiper {...params}>
@@ -461,7 +478,7 @@ export default () => {
             </div>
           </Swiper>
         </div>
-      </section>
+          </section>*/}
     </Layout>
   );
 };

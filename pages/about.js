@@ -15,7 +15,7 @@ export default () => {
 
       <Header
         headerText="Meet the Team!"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        description="Meet the official team for Hack For The People!"
       />
       <section className="team">
         <div className="container">
@@ -124,13 +124,13 @@ export default () => {
               <p>Outreach</p>
             </div>
             <div className="member">
-              <img src="/img/team/michael.jpg" />
-              <h5>Michael Wang</h5>
-              <p>Technology</p>
-            </div>
-            <div className="member">
               <img src="/img/team/default.jpg" />
               <h5>Trisha Agarwal</h5>
+              <p>Outreach</p>
+            </div>
+            <div className="member">
+              <img src="/img/team/michael.jpg" />
+              <h5>Michael Wang</h5>
               <p>Technology</p>
             </div>
           </div>
