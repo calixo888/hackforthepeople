@@ -129,7 +129,7 @@ export default () => {
         <div style={{ padding: "50px" }}>
           <img
             src="/img/tracks/social.svg"
-            style={{ height: "15vh", paddingBottom: "2vh" }}
+            style={{ height: "30vh", paddingBottom: "2vh" }}
           />
 
           <h1 ref={(_subtitle) => (subtitle = _subtitle)}>Sociocultural</h1>
@@ -180,7 +180,7 @@ export default () => {
         <div style={{ padding: "50px" }}>
           <img
             src="/img/tracks/economic.svg"
-            style={{ height: "15vh", paddingBottom: "2vh" }}
+            style={{ height: "30vh", paddingBottom: "2vh" }}
           />
           <h1 ref={(_subtitle) => (subtitle = _subtitle)}>Economic</h1>
           <p>
@@ -229,7 +229,7 @@ export default () => {
         <div style={{ padding: "50px" }}>
           <img
             src="/img/tracks/political.svg"
-            style={{ height: "15vh", paddingBottom: "2vh" }}
+            style={{ height: "30vh", paddingBottom: "2vh" }}
           />
           <h1 ref={(_subtitle) => (subtitle = _subtitle)}>Political</h1>
           <p>
@@ -280,7 +280,7 @@ export default () => {
         <div style={{ padding: "50px" }}>
           <img
             src="/img/tracks/environmental.svg"
-            style={{ height: "15vh", paddingBottom: "2vh" }}
+            style={{ height: "30vh", paddingBottom: "2vh" }}
           />
           <h1 ref={(_subtitle) => (subtitle = _subtitle)}>Environmental</h1>
           <p>
