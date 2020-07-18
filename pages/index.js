@@ -415,7 +415,7 @@ export default () => {
         </div>
       </section>
 
-      <section className="prizes">
+      {/*<section className="prizes">
         <div className="container">
           <h1>Prizes</h1>
           <Swiper {...params}>
@@ -461,7 +461,7 @@ export default () => {
             </div>
           </Swiper>
         </div>
-      </section>
+          </section>*/}
     </Layout>
   );
 };
