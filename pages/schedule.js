@@ -1,5 +1,5 @@
 import Layout from "../components/Layout.js";
-import Head from 'next/head';
+import Head from "next/head";
 import Header from "../components/Header.js";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
@@ -8,7 +8,10 @@ export default () => {
     <Layout>
       <Head>
         <title>Hack For The People - Schedule</title>
-        <meta name="description" content="The schedule for the inter-collegiate online hackathon Hack For The People" />
+        <meta
+          name="description"
+          content="The schedule for the inter-collegiate online hackathon Hack For The People"
+        />
       </Head>
 
       <Header
@@ -23,15 +26,46 @@ export default () => {
               <TabList
                 style={{
                   display: "grid",
-                  "grid-template-columns": "repeat(auto-fill, minmax(300px, 1fr))",
+                  "grid-template-columns":
+                    "repeat(auto-fill, minmax(300px, 1fr))",
                   listStyle: "none",
                   paddingLeft: "0",
-                  marginBottom: "0"
+                  marginBottom: "0",
                 }}
               >
-                <Tab style={{ cursor: "pointer", "padding": "15px", "text-align": "center", "border-top-left-radius": "3px", "border-top-right-radius": "3px" }}>Friday</Tab>
-                <Tab style={{ cursor: "pointer", "padding": "15px", "text-align": "center", "border-top-left-radius": "3px", "border-top-right-radius": "3px" }}>Saturday</Tab>
-                <Tab style={{ cursor: "pointer", "padding": "15px", "text-align": "center", "border-top-left-radius": "3px", "border-top-right-radius": "3px" }}>Sunday</Tab>
+                <Tab
+                  style={{
+                    cursor: "pointer",
+                    padding: "15px",
+                    "text-align": "center",
+                    "border-top-left-radius": "3px",
+                    "border-top-right-radius": "3px",
+                  }}
+                >
+                  Friday
+                </Tab>
+                <Tab
+                  style={{
+                    cursor: "pointer",
+                    padding: "15px",
+                    "text-align": "center",
+                    "border-top-left-radius": "3px",
+                    "border-top-right-radius": "3px",
+                  }}
+                >
+                  Saturday
+                </Tab>
+                <Tab
+                  style={{
+                    cursor: "pointer",
+                    padding: "15px",
+                    "text-align": "center",
+                    "border-top-left-radius": "3px",
+                    "border-top-right-radius": "3px",
+                  }}
+                >
+                  Sunday
+                </Tab>
               </TabList>
 
               <TabPanel>
@@ -42,9 +76,9 @@ export default () => {
                     <th>Link</th>
                   </tr>
                   <tr>
-                    <td>Hackathon starts!</td>
-                    <td>6:00pm EST</td>
-                    <td>None</td>
+                    <td>TBD</td>
+                    <td>TBD</td>
+                    <td>TBD</td>
                   </tr>
                 </table>
               </TabPanel>
@@ -56,9 +90,9 @@ export default () => {
                     <th>Link</th>
                   </tr>
                   <tr>
-                    <td>Game night!</td>
-                    <td>10:00pm EST</td>
-                    <td>None</td>
+                    <td>TBD</td>
+                    <td>TBD</td>
+                    <td>TBD</td>
                   </tr>
                 </table>
               </TabPanel>
@@ -70,9 +104,9 @@ export default () => {
                     <th>Link</th>
                   </tr>
                   <tr>
-                    <td>Hackathon ends</td>
-                    <td>3:00pm EST</td>
-                    <td>None</td>
+                    <td>TBD</td>
+                    <td>TBD</td>
+                    <td>TBD</td>
                   </tr>
                 </table>
               </TabPanel>

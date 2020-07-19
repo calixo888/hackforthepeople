@@ -188,9 +188,10 @@ export default () => {
               Tackle both current and potential emerging issues related to our
               economy.{" "}
             </strong>
-            Solutions that will better business, solve policy issues, and even
-            household innovations that can alleviate the stress of COVID-19 are
-            welcomed.
+            Projects under this track should be centered to provide solutions to
+            economic challenges that society is currently facing. Solutions that
+            will better business, solve policy issues, and even household
+            innovations that can alleviate the stress of COVID-19 are welcomed.
           </p>
         </div>
       </ReactModal>
@@ -305,7 +306,7 @@ export default () => {
                 eiusmod tempor incididunt.
               </h4>
               <div className="cta-buttons">
-                <Link href="/about">
+                <Link href="#tracks-section">
                   <a className="btn w-100 btn-outline-light">Learn More</a>
                 </Link>
                 <a
@@ -328,7 +329,7 @@ export default () => {
         description="Hack For The People is an intercollegiate hackathon designed to engage students in tackling some of the worlds largest problems. From issues in the economy to trying to channel people's inner patriotism, the sky's the limit. "
       />
 
-      <section className="tracks">
+      <section id="tracks-section" className="tracks">
         <div className="container">
           <h1>Tracks</h1>
           <div className="track-grid">
@@ -340,7 +341,7 @@ export default () => {
               <img
                 className="mb-3 full-image"
                 src="/img/tracks/social.svg"
-                style={{ height: "60%" }}
+                style={{ height: "55%" }}
               />
               <h3>Sociocultural</h3>
               <p>
@@ -359,10 +360,11 @@ export default () => {
               <img className="mb-3 half-image" src="/img/tracks/economic.svg" />
               <h3>Economic</h3>
               <p>
-                Tackle both current and potential emerging issues related to our
-                economy. Solutions that will better business, solve policy
-                issues, and even household innovations that can alleviate the
-                stress of COVID-19 are welcomed.
+                Projects under this track should be centered to provide
+                solutions to current economic challenges. Solutions that will
+                better business, solve policy issues, and even household
+                innovations that can alleviate the stress of COVID-19 are
+                welcomed.
               </p>
             </div>
             <div
@@ -424,7 +426,10 @@ export default () => {
           <h1>Sponsors</h1>
           <p>
             Interested in sponsoring us? Check out our{" "}
-            <a href="#" target="_blank">
+            <a
+              href="/071304-Hackathon-Sponsorship-Prospectus-Document.pdf"
+              target="_blank"
+            >
               sponsorship prospectus
             </a>
             !

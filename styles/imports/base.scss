@@ -1,6 +1,8 @@
 $color-primary: #388cf7;
 $color-secondary: #69e4be;
-
+html {
+  scroll-behavior: smooth;
+}
 * {
   font-family: "Chivo";
 }
