@@ -302,8 +302,8 @@ export default () => {
             <div>
               <h1>Hack For The People</h1>
               <h4 className="py-3">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt.
+                Hack For The People is an intercollegiate hackathon designed to
+                engage students in tackling some of the worlds largest problems.
               </h4>
               <div className="cta-buttons">
                 <Link href="#tracks-section">
@@ -312,7 +312,7 @@ export default () => {
                 <a
                   className="btn w-100 btn-light"
                   style={{ "align-items": "center" }}
-                  href="#"
+                  href="https://bit.ly/hftp_app"
                   target="_blank"
                 >
                   Register
