@@ -6,6 +6,10 @@ header {
     color: white;
   }
 
+  & p {
+    font-size: 20px;
+  }
+
   .header-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

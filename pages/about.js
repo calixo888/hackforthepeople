@@ -124,7 +124,7 @@ export default () => {
               <p>Outreach</p>
             </div>
             <div className="member">
-              <img src="/img/team/default.jpg" />
+              <img src="/img/team/trisha.jpg" />
               <h5>Trisha Agarwal</h5>
               <p>Outreach</p>
             </div>
