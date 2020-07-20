@@ -9,7 +9,7 @@ export default () => {
         <title>Hack For The People - About</title>
         <meta
           name="description"
-          content="About Hack For The People, an inter-collegiate online hackathon powered by the Coronavirus Visualization Team!"
+          content="Hack For The People is an intercollegiate hackathon designed to engage students in tackling some of the worlds largest problems."
         />
       </Head>
 

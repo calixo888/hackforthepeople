@@ -312,7 +312,7 @@ export default () => {
                 <a
                   className="btn w-100 btn-light"
                   style={{ "align-items": "center" }}
-                  href="#"
+                  href="https://bit.ly/hftp_app"
                   target="_blank"
                 >
                   Register

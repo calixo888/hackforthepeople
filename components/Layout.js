@@ -43,7 +43,11 @@ export default ({ children }) => {
                 </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#" target="_blank">
+                <a
+                  className="nav-link"
+                  href="https://bit.ly/hftp_app"
+                  target="_blank"
+                >
                   Register
                 </a>
               </li>
@@ -92,17 +96,8 @@ export default ({ children }) => {
                   </a>
                 </li>
               </ul>
-              <div className="email-input">
-                <input
-                  className="form-control"
-                  type="text"
-                  placeholder="Type something here"
-                />
-                <button type="button" className="p-0">
-                  &rarr;
-                </button>
-              </div>
-              <ul className="horizontal-links">
+
+              <ul className="horizontal-links" style={{ paddingTop: "15px" }}>
                 <li>
                   <Link href="/071303-Hackathon-LegalDocs-Privacy-Policy.pdf">
                     <a target="_blank"> Privacy Policy</a>
