@@ -104,7 +104,7 @@ export default ({ children }) => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/public\071303-Hackathon-LegalDocs-Code-of-Conduct.pdf">
+                  <Link href="/071303-Hackathon-LegalDocs-Code-of-Conduct.pdf">
                     <a target="_blank">Code of Conduct</a>
                   </Link>
                 </li>
