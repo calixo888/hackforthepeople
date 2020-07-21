@@ -64,7 +64,7 @@ export default () => {
               <p>Operations</p>
             </div>
             <div className="member">
-              <img src="/img/team/default.jpg" />
+              <img src="/img/team/akanksha.jpg" />
               <h5>Akanksha Bhatia</h5>
               <p>Operations</p>
             </div>
