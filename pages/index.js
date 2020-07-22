@@ -302,8 +302,8 @@ export default () => {
             <div>
               <h1>Hack For The People</h1>
               <h4 className="py-3">
-                Hack For The People is an intercollegiate hackathon designed to
-                engage students in tackling some of the worlds largest problems.
+                A hackathon for the people, by the people. With countless
+                possibilities and issues to tackle, the sky's the limit.
               </h4>
               <div className="cta-buttons">
                 <Link href="#tracks-section">
