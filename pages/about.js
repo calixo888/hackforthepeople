@@ -101,7 +101,7 @@ export default () => {
             <div className="member">
               <img src="/img/team/bernice.jpg" />
               <h5>Bernice Lau</h5>
-              <p>Sponsorships</p>
+              <p>Sponsorships </p>
             </div>
             <div className="member">
               <img src="/img/team/default.jpg" />
