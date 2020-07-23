@@ -417,6 +417,9 @@ export default () => {
             <div className="partner">
               <img src="/img/logos/partners/cvt.png" />
             </div>
+            <div className="partner p-5">
+              <img src="/img/logos/partners/panel-to-the-people.png" />
+            </div>
           </div>
         </div>
       </section>
