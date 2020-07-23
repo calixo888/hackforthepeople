@@ -36,8 +36,8 @@ export default () => {
               <p>Director of Sponsorships</p>
             </div>
             <div className="member">
-              <img src="/img/team/default.jpg" />
-              <h5>Stephanie Su</h5>
+              <img src="/img/team/kelly.jpg" />
+              <h5>Kelly Ly</h5>
               <p>Director of Outreach</p>
             </div>
             <div className="member">
