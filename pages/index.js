@@ -420,6 +420,9 @@ export default () => {
             <div className="partner p-5">
               <a href="https://scholar.harvard.edu/panel" target="_blank"><img src="/img/logos/partners/panel-to-the-people.png" /></a>
             </div>
+            <div className="partner">
+              <a href="https://www.ted.com/tedx/events/24786" target="_blank"><img src="/img/logos/partners/tedxharvard.png" /></a>
+            </div>
           </div>
         </div>
       </section>
