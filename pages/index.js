@@ -412,16 +412,29 @@ export default () => {
           <h1>Partnerships</h1>
           <div className="partners-grid">
             <div className="partner p-5">
-              <a href="https://hackplus.io/" target="_blank"><img src="/img/logos/partners/hackplus.png" /></a>
+              <a href="https://hackplus.io/" target="_blank">
+                <img src="/img/logos/partners/hackplus.png" />
+              </a>
             </div>
             <div className="partner">
-              <a href="https://www.understandcovid.org/" target="_blank"><img src="/img/logos/partners/cvt.png" /></a>
+              <a href="https://www.understandcovid.org/" target="_blank">
+                <img src="/img/logos/partners/cvt.png" />
+              </a>
             </div>
             <div className="partner p-5">
-              <a href="https://scholar.harvard.edu/panel" target="_blank"><img src="/img/logos/partners/panel-to-the-people.png" /></a>
+              <a href="https://scholar.harvard.edu/panel" target="_blank">
+                <img src="/img/logos/partners/panel-to-the-people.png" />
+              </a>
             </div>
             <div className="partner">
-              <a href="https://www.ted.com/tedx/events/24786" target="_blank"><img src="/img/logos/partners/tedxharvard.png" /></a>
+              <a href="https://www.ted.com/tedx/events/24786" target="_blank">
+                <img src="/img/logos/partners/tedxharvard.png" />
+              </a>
+            </div>
+            <div className="partner">
+              <a href="https://discord.com/" target="_blank">
+                <img src="/img/logos/partners/discord.svg" />
+              </a>
             </div>
           </div>
         </div>
