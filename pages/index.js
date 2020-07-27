@@ -291,7 +291,7 @@ export default () => {
             Projects under the Environmental track should aim to provide a
             platform to help our world. Whether through curbing climate change
             or delivering a sustainable and affordable alternative to current
-            technologies, the skies the limit!
+            technologies, anything is possible!
           </p>
         </div>
       </ReactModal>
@@ -400,7 +400,7 @@ export default () => {
                 Projects under the Environmental track should aim to provide a
                 platform to help our world. Whether through curbing climate
                 change or delivering a sustainable and affordable alternative to
-                current technologies, the skies the limit!
+                current technologies, anything is possible!
               </p>
             </div>
           </div>
