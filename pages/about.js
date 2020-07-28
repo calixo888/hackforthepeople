@@ -84,7 +84,7 @@ export default () => {
               <p>Sponsorships</p>
             </div>
             <div className="member">
-              <img src="/img/team/default.jpg" />
+              <img src="/img/team/Byeongjun.jpg" />
               <h5>Byeongjun Moon</h5>
               <p>Sponsorships</p>
             </div>
