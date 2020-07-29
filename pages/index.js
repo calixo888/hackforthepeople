@@ -436,6 +436,31 @@ export default () => {
                 <img src="/img/logos/partners/discord.svg" />
               </a>
             </div>
+            <div className="partner p-4">
+              <a href="https://www.voiceflow.com/" target="_blank">
+                <img src="/img/logos/partners/voiceflow.png" />
+              </a>
+            </div>
+            <div className="partner p-2">
+              <a href="https://cloud.google.com/" target="_blank">
+                <img src="/img/logos/partners/gcloud.png" />
+              </a>
+            </div>
+            <div className="partner p-5">
+              <a href="https://www.wolframalpha.com/" target="_blank">
+                <img src="/img/logos/partners/wolfram.png" />
+              </a>
+            </div>
+            <div className="partner p-5">
+              <a href="https://www.bugsee.com/" target="_blank">
+                <img src="/img/logos/partners/bugsee.png" />
+              </a>
+            </div>
+            <div className="partner p-5">
+              <a href="https://balsamiq.com/" target="_blank">
+                <img src="/img/logos/partners/balsamiq.png" />
+              </a>
+            </div>
           </div>
         </div>
       </section>

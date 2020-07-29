@@ -36,7 +36,7 @@ export default () => {
           />
           <Accordion
             title="Who can participate?"
-            content="Anyone ages 18 and up can participate! There are no restrictions on experience or location."
+            content="Anyone in highschool and up can participate! There are no restrictions on experience or location."
           />
           <Accordion
             title="Are there prizes?"
