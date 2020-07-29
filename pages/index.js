@@ -409,7 +409,7 @@ export default () => {
 
       <section className="partnerships">
         <div className="container">
-          <h1>Partnerships</h1>
+          <h1>Partners</h1>
           <div className="partners-grid">
             <div className="partner p-5">
               <a href="https://hackplus.io/" target="_blank">
@@ -436,6 +436,17 @@ export default () => {
                 <img src="/img/logos/partners/discord.svg" />
               </a>
             </div>
+            <div className="partner p-5">
+              <a href="https://bostonhacks.io/" target="_blank">
+                <img src="/img/logos/partners/bostonhacks.png" />
+              </a>
+            </div>
+            <div className="partner p-5 large-partner">
+              <a href="https://www.theiofoundation.org/" target="_blank">
+                <img src="/img/logos/partners/io.png" />
+              </a>
+            </div>
+            
             </div>
         </div>
       </section>
