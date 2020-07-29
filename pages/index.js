@@ -312,7 +312,7 @@ export default () => {
                 <a
                   className="btn w-100 btn-light"
                   style={{ "align-items": "center" }}
-                  href="https://bit.ly/hftp_app"
+                  href="https://hackforthepeople.devpost.com/"
                   target="_blank"
                 >
                   Register

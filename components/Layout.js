@@ -45,7 +45,7 @@ export default ({ children }) => {
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  href="https://bit.ly/hftp_app"
+                  href="https://hackforthepeople.devpost.com/"
                   target="_blank"
                 >
                   Register
@@ -70,7 +70,7 @@ export default ({ children }) => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/joincvt/" target="_blank">
+                  <a href="https://www.instagram.com/hack_for_the_people/" target="_blank">
                     <img src="/img/icons/instagram.svg" />
                   </a>
                 </li>
@@ -89,7 +89,7 @@ export default ({ children }) => {
                 </li>
                 <li>
                   <a
-                    href="https://www.linkedin.com/company/covid-visualization-team/"
+                    href="https://www.linkedin.com/company/hack-for-the-people/"
                     target="_blank"
                   >
                     <img src="/img/icons/linkedin2.svg" />
