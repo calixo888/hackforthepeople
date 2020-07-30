@@ -326,7 +326,7 @@ export default () => {
 
       <Header
         headerText="About Hack For The People"
-        description="Hack For The People is an intercollegiate hackathon designed to engage students in tackling some of the worlds largest problems. The event will take place from August 21st - 23rd. "
+        description="Hack For The People is an intercollegiate hackathon designed to engage students in tackling some of the world's largest problems. The event will take place from August 21st - 23rd. "
       />
 
       <section id="tracks-section" className="tracks">
