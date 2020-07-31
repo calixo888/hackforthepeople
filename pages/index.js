@@ -441,12 +441,16 @@ export default () => {
                 <img src="/img/logos/partners/bostonhacks.png" />
               </a>
             </div>
-            <div className="partner p-5 large-partner">
+            <div className="partner io p-5 large-partner">
               <a href="https://www.theiofoundation.org/" target="_blank">
                 <img src="/img/logos/partners/io.png" />
               </a>
             </div>
-            
+            <div className="partner flik large-partner">
+              <a href="https://www.weareflik.com/" target="_blank">
+                <img src="/img/logos/partners/flik.jpg" />
+              </a>
+            </div>
             </div>
         </div>
       </section>
@@ -479,6 +483,11 @@ export default () => {
             <div className="sponsor p-5">
               <a href="https://balsamiq.com/" target="_blank">
                 <img src="/img/logos/partners/balsamiq.png" />
+              </a>
+            </div>
+            <div className="sponsor p-5">
+              <a href="https://www.stickergiant.com/" target="_blank">
+                <img src="/img/logos/partners/stickergiant.png" />
               </a>
             </div>
           </div>
