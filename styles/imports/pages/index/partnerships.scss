@@ -16,11 +16,36 @@
         width:80% !important;
       }
     }
+
+    .flik {
+      & img{
+        width:80% !important;
+        margin-left:40px;
+        margin-top:-70px;
+      }
+    }
+
+    .io {
+      margin-top:-60px;
+    }
   }
 }
 
 @media (max-width: 600px) {
   .partners-grid {
     grid-template-columns: repeat(auto-fill, 100%) !important;
+  }
+
+  .flik {
+    & img{
+      width:80% !important;
+      margin-left:60px;
+      padding-top:100px;
+    }
+  }
+
+  .io {
+    margin-left:60px;
+    padding-top:-800px;
   }
 }
