@@ -21,10 +21,18 @@ export default () => {
 
       <section className="faqs">
         <div className="container">
+         
+        <Accordion title="What is a hackathon?" content="A hackathon is a technology-focused event where individuals and teams work on new projects in a short period of time. You can build anything you want. An app, a robot, a website. The only limit is your imagination!"/>
+
           <Accordion
             title="What is Hack for the People?"
             content="Hack For The People is an intercollegiate hackathon initiative designed to engage students in tackling some of the world’s largest problems like social/economic/political/environmental issues, which will be mentored by experts."
           />
+           <Accordion 
+          title="I have never participated in a hackathon. Can I still join?"
+          content="Of course! Everyone begins somewhere, right? This hackathon is beginner friendly and we welcome anyone interested in participating regardless of experience.  Plus, we will have workshops and mentors to help you along the way.
+          " 
+        />
           <Accordion
             title="Where will this be hosted?
             "
