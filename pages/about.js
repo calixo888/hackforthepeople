@@ -64,11 +64,6 @@ export default () => {
               <p>Operations</p>
             </div>
             <div className="member">
-              <img src="/img/team/akanksha.jpg" />
-              <h5>Akanksha Bhatia</h5>
-              <p>Operations</p>
-            </div>
-            <div className="member">
               <img src="/img/team/yogya.jpg" />
               <h5>Yogya Kalra</h5>
               <p>Operations</p>
@@ -109,8 +104,8 @@ export default () => {
               <p>Outreach</p>
             </div>
             <div className="member">
-              <img src="/img/team/sara.png" />
-              <h5>Sara Kohler</h5>
+              <img src="/img/team/michelle.jpg" />
+              <h5>Michelle Ly</h5>
               <p>Outreach</p>
             </div>
             <div className="member">
