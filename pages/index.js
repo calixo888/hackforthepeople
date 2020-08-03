@@ -495,6 +495,11 @@ export default () => {
                 <img src="/img/logos/partners/stickergiant.png" />
               </a>
             </div>
+            <div className="sponsor p-5">
+              <a href="https://clickup.com/" target="_blank">
+                <img src="/img/logos/partners/clickup.svg" />
+              </a>
+            </div>
           </div>
           <p>
             Interested in sponsoring us? Check out our{" "}
