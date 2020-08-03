@@ -291,7 +291,7 @@ export default () => {
             Projects under the Environmental track should aim to provide a
             platform to help our world. Whether through curbing climate change
             or delivering a sustainable and affordable alternative to current
-            technologies, anything is possible!
+            technologies, the skies the limit!
           </p>
         </div>
       </ReactModal>
@@ -312,7 +312,7 @@ export default () => {
                 <a
                   className="btn w-100 btn-light"
                   style={{ "align-items": "center" }}
-                  href="https://hackforthepeople.devpost.com/"
+                  href="https://bit.ly/hftp_app"
                   target="_blank"
                 >
                   Register
@@ -326,7 +326,7 @@ export default () => {
 
       <Header
         headerText="About Hack For The People"
-        description="Hack For The People is an intercollegiate hackathon designed to engage students in tackling some of the world's largest problems. The event will take place from August 21st - 23rd. "
+        description="Hack For The People is an intercollegiate hackathon designed to engage students in tackling some of the worlds largest problems. From issues in the economy to trying to channel people's inner patriotism, the sky's the limit. "
       />
 
       <section id="tracks-section" className="tracks">
@@ -400,7 +400,7 @@ export default () => {
                 Projects under the Environmental track should aim to provide a
                 platform to help our world. Whether through curbing climate
                 change or delivering a sustainable and affordable alternative to
-                current technologies, anything is possible!
+                current technologies, the skies the limit!
               </p>
             </div>
           </div>
@@ -409,93 +409,27 @@ export default () => {
 
       <section className="partnerships">
         <div className="container">
-          <h1>Partners</h1>
+          <h1>Partnerships</h1>
           <div className="partners-grid">
             <div className="partner p-5">
-              <a href="https://hackplus.io/" target="_blank">
-                <img src="/img/logos/partners/hackplus.png" />
-              </a>
+              <a href="https://hackplus.io/" target="_blank"><img src="/img/logos/partners/hackplus.png" /></a>
             </div>
             <div className="partner">
-              <a href="https://www.understandcovid.org/" target="_blank">
-                <img src="/img/logos/partners/cvt.png" />
-              </a>
+              <a href="https://www.understandcovid.org/" target="_blank"><img src="/img/logos/partners/cvt.png" /></a>
             </div>
             <div className="partner p-5">
-              <a href="https://scholar.harvard.edu/panel" target="_blank">
-                <img src="/img/logos/partners/panel-to-the-people.png" />
-              </a>
+              <a href="https://scholar.harvard.edu/panel" target="_blank"><img src="/img/logos/partners/panel-to-the-people.png" /></a>
             </div>
             <div className="partner">
-              <a href="https://www.ted.com/tedx/events/24786" target="_blank">
-                <img src="/img/logos/partners/tedxharvard.png" />
-              </a>
+              <a href="https://www.ted.com/tedx/events/24786" target="_blank"><img src="/img/logos/partners/tedxharvard.png" /></a>
             </div>
-            <div className="partner">
-              <a href="https://discord.com/" target="_blank">
-                <img src="/img/logos/partners/discord.svg" />
-              </a>
-            </div>
-            <div className="partner p-5">
-              <a href="https://bostonhacks.io/" target="_blank">
-                <img src="/img/logos/partners/bostonhacks.png" />
-              </a>
-            </div>
-            <div className="partner io p-5 large-partner">
-              <a href="https://www.theiofoundation.org/" target="_blank">
-                <img src="/img/logos/partners/io.png" />
-              </a>
-            </div>
-            <div className="partner flik large-partner">
-              <a href="https://www.weareflik.com/" target="_blank">
-                <img src="/img/logos/partners/flik.jpg" />
-              </a>
-            </div>
-            <div className="partner flik p-1">
-              <a href="https://hackasolution.org/" target="_blank">
-                <img src="/img/logos/partners/hack-a-solution-logo.png" />
-              </a>
-            </div>
-            </div>
+          </div>
         </div>
       </section>
 
       <section className="sponsors">
         <div className="container">
           <h1>Sponsors</h1>
-         
-          <div className="sponsors-grid">
-          <div className="sponsor p-4">
-              <a href="https://www.voiceflow.com/" target="_blank">
-                <img src="/img/logos/partners/voiceflow.png" />
-              </a>
-            </div>
-            <div className="sponsor p-2">
-              <a href="https://cloud.google.com/" target="_blank">
-                <img src="/img/logos/partners/gcloud.png" />
-              </a>
-            </div>
-            <div className="sponsor p-5">
-              <a href="https://www.wolframalpha.com/" target="_blank">
-                <img src="/img/logos/partners/wolfram.png" />
-              </a>
-            </div>
-            <div className="sponsor p-5">
-              <a href="https://www.bugsee.com/" target="_blank">
-                <img src="/img/logos/partners/bugsee.png" />
-              </a>
-            </div>
-            <div className="sponsor p-5">
-              <a href="https://balsamiq.com/" target="_blank">
-                <img src="/img/logos/partners/balsamiq.png" />
-              </a>
-            </div>
-            <div className="sponsor p-5">
-              <a href="https://www.stickergiant.com/" target="_blank">
-                <img src="/img/logos/partners/stickergiant.png" />
-              </a>
-            </div>
-          </div>
           <p>
             Interested in sponsoring us? Check out our{" "}
             <a
