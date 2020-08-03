@@ -99,11 +99,6 @@ export default () => {
               <p>Sponsorships </p>
             </div>
             <div className="member">
-              <img src="/img/team/default.jpg" />
-              <h5>David Wang</h5>
-              <p>Outreach</p>
-            </div>
-            <div className="member">
               <img src="/img/team/michelle.jpg" />
               <h5>Michelle Ly</h5>
               <p>Outreach</p>
