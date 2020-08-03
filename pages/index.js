@@ -311,7 +311,7 @@ export default () => {
                 </Link>
                 <a
                   className="btn w-100 btn-light"
-                  style={{ "align-items": "center" }}
+                  style={{ "alignItems": "center" }}
                   href="https://bit.ly/hftp_app"
                   target="_blank"
                 >
@@ -440,6 +440,32 @@ export default () => {
             </a>
             !
           </p>
+        </div>
+      </section>
+
+      <section className="speakers">
+        <div className="container">
+          <h2>Speakers</h2>
+          <p>Here are the notable individuals that will be speaking at Hack For The People!</p>
+
+          <h3>Mathematics</h3>
+          <div className="speaker-grid">
+            <div className="speaker">
+              <img src="/img/team/kevin.jpg" />
+              <h3>Name</h3>
+              <p>Title</p>
+            </div>
+            <div className="speaker">
+              <img src="/img/team/kevin.jpg" />
+              <h3>Name</h3>
+              <p>Title</p>
+            </div>
+            <div className="speaker">
+              <img src="/img/team/kevin.jpg" />
+              <h3>Name</h3>
+              <p>Title</p>
+            </div>
+          </div>
         </div>
       </section>
 
