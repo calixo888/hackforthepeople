@@ -451,6 +451,11 @@ export default () => {
                 <img src="/img/logos/partners/flik.jpg" />
               </a>
             </div>
+            <div className="partner flik p-1">
+              <a href="https://hackasolution.org/" target="_blank">
+                <img src="/img/logos/partners/hack-a-solution-logo.png" />
+              </a>
+            </div>
             </div>
         </div>
       </section>
