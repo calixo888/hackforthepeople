@@ -519,13 +519,13 @@ export default () => {
 
           <h3>General Prizes</h3>
           <div className="prize-grid">
-            <div className="prize">
-              <h5>Prize</h5>
-              <p>Description</p>
+          <div className="prize">
+              <h5>Google Cloud Swag</h5>
+              <p>Google Cloud branded backpack, water bottle, and trophy</p>
             </div>
             <div className="prize">
-              <h5>Prize</h5>
-              <p>Description</p>
+              <h5>Hackathon Invitation</h5>
+              <p>Invitation to Google Cloud COVID-19 hackathon with chance to win $5000 and mentorship</p>
             </div>
             <div className="prize">
               <h5>Prize</h5>
@@ -539,17 +539,20 @@ export default () => {
 
           <h3>Sponsor Prizes</h3>
           <div className="prize-grid">
+          <div className="prize">
+              <h5>Bugsee Credits</h5>
+              <p>
+$1000 in credits to Bugsee service</p>
+            </div>
+            
             <div className="prize">
-              <h5>Prize</h5>
-              <p>Description</p>
+              <h5>Interview Cake Subscriptions</h5>
+              <p>FREE 30-day access pass
+for full coding interview prep course</p>
             </div>
             <div className="prize">
-              <h5>Prize</h5>
-              <p>Description</p>
-            </div>
-            <div className="prize">
-              <h5>Prize</h5>
-              <p>Description</p>
+              <h5>Clickup Discount and Prize</h5>
+              <p>35% discount + Winner Prize</p>
             </div>
             <div className="prize">
               <h5>Prize</h5>
