@@ -451,19 +451,24 @@ export default () => {
           <h3>Mathematics</h3>
           <div className="speaker-grid">
             <div className="speaker">
-              <img src="/img/team/kevin.jpg" />
-              <h3>Name</h3>
-              <p>Title</p>
+              <img src="/img/speakers/grant.png" />
+              <h3>Grant Sanderson </h3>
+              <p>3Blue1Brown</p>
             </div>
             <div className="speaker">
-              <img src="/img/team/kevin.jpg" />
-              <h3>Name</h3>
-              <p>Title</p>
+              <img src="/img/speakers/arthur.png" />
+              <h3>Arthur Benjamin</h3>
+              <p>Math Professor at Harvey Mudd College</p>
             </div>
             <div className="speaker">
-              <img src="/img/team/kevin.jpg" />
-              <h3>Name</h3>
-              <p>Title</p>
+              <img src="/img/speakers/mithuna.png" />
+              <h3>Mithuna Yoganathan</h3>
+              <p>Looking Glass Universe</p>
+            </div>
+            <div className="speaker">
+              <img src="/img/speakers/hobson.png" />
+              <h3>Hobson Lane</h3>
+              <p>CTO at Tangible AI</p>
             </div>
           </div>
         </div>
