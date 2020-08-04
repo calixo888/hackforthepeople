@@ -483,7 +483,7 @@ export default () => {
 
       <section className="speakers">
         <div className="container">
-          <h2>Speakers</h2>
+          <h1>Speakers</h1>
           <p>Here are the notable individuals that will be speaking at Hack For The People!</p>
 
           <h3>Mathematics</h3>
@@ -507,6 +507,53 @@ export default () => {
               <img src="/img/speakers/hobson.png" />
               <h3>Hobson Lane</h3>
               <p>CTO at Tangible AI</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="prizes">
+        <div className="container">
+          <h1>Prizes</h1>
+          <p className="mb-0">Here are some of the amazing prizes you can win at Hack For The People!</p>
+
+          <h3>General Prizes</h3>
+          <div className="prize-grid">
+            <div className="prize">
+              <h5>Prize</h5>
+              <p>Description</p>
+            </div>
+            <div className="prize">
+              <h5>Prize</h5>
+              <p>Description</p>
+            </div>
+            <div className="prize">
+              <h5>Prize</h5>
+              <p>Description</p>
+            </div>
+            <div className="prize">
+              <h5>Prize</h5>
+              <p>Description</p>
+            </div>
+          </div>
+
+          <h3>Sponsor Prizes</h3>
+          <div className="prize-grid">
+            <div className="prize">
+              <h5>Prize</h5>
+              <p>Description</p>
+            </div>
+            <div className="prize">
+              <h5>Prize</h5>
+              <p>Description</p>
+            </div>
+            <div className="prize">
+              <h5>Prize</h5>
+              <p>Description</p>
+            </div>
+            <div className="prize">
+              <h5>Prize</h5>
+              <p>Description</p>
             </div>
           </div>
         </div>
