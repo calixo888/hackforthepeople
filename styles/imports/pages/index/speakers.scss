@@ -1,5 +1,9 @@
 .speakers {
 
+  & h3 {
+    margin-top: 30px;
+  }
+
   .speaker-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -14,7 +18,7 @@
         width: 100%;
       }
 
-      & h3 {
+      & h5 {
         margin-top: 15px;
       }
 
