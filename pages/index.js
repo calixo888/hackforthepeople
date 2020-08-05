@@ -456,6 +456,27 @@ export default () => {
                 <img src="/img/logos/partners/hack-a-solution-logo.png" />
               </a>
             </div>
+            <div className="partner flik p-5">
+              <a href="https://ngcproject.org/the-connectory" target="_blank">
+                <img src="/img/logos/partners/ngc.png" />
+              </a>
+            </div>
+            <div className="partner flik p-5">
+              <a href="https://www.ncwit.org/" target="_blank">
+                <img src="/img/logos/partners/ncwit.jpg" />
+              </a>
+            </div><div className="partner flik p-5">
+              <a href="https://www.builtbygirls.com/" target="_blank">
+                <img src="/img/logos/partners/bbg.png" />
+              </a>
+            </div>
+            <div className="partner flik p-5">
+              <a href="https://girlsofsteelrobotics.com/" target="_blank">
+                <img src="/img/logos/partners/gos.jpg" />
+              </a>
+            </div>
+            
+            
             </div>
         </div>
       </section>
