@@ -500,6 +500,21 @@ export default () => {
                 <img src="/img/logos/partners/clickup.svg" />
               </a>
             </div>
+            <div className="sponsor p-5">
+              <a href="https://www.interviewcake.com/" target="_blank">
+                <img src="/img/logos/partners/cake.jpg" />
+              </a>
+            </div>
+            <div className="sponsor p-5">
+              <a href="https://www.echoar.xyz/" target="_blank">
+                <img src="/img/logos/partners/echo.png" />
+              </a>
+            </div>
+            <div className="sponsor p-4 ">
+              <a href="https://givemycertificate.com/" target="_blank">
+                <img src="/img/logos/partners/certif.png" />
+              </a>
+            </div>
           </div>
           <p>
             Interested in sponsoring us? Check out our{" "}
