@@ -436,6 +436,11 @@ export default () => {
                 <img src="/img/logos/partners/discord.svg" />
               </a>
             </div>
+            <div className="partner p-2">
+              <a href="https://cloud.google.com/" target="_blank">
+                <img src="/img/logos/partners/gcloud2.png" />
+              </a>
+            </div>
             <div className="partner p-5">
               <a href="https://bostonhacks.io/" target="_blank">
                 <img src="/img/logos/partners/bostonhacks.png" />
