@@ -475,9 +475,9 @@ export default () => {
                 <img src="/img/logos/partners/bbg.png" />
               </a>
             </div>
-            <div className="partner flik p-5">
+            <div className="partner flik p-1">
               <a href="https://girlsofsteelrobotics.com/" target="_blank">
-                <img src="/img/logos/partners/gos.jpg" />
+                <img src="/img/logos/partners/gos.png" />
               </a>
             </div>
             
@@ -494,11 +494,6 @@ export default () => {
           <div className="sponsor p-4">
               <a href="https://www.voiceflow.com/" target="_blank">
                 <img src="/img/logos/partners/voiceflow.png" />
-              </a>
-            </div>
-            <div className="sponsor p-2">
-              <a href="https://cloud.google.com/" target="_blank">
-                <img src="/img/logos/partners/gcloud.png" />
               </a>
             </div>
             <div className="sponsor p-5">
@@ -538,7 +533,7 @@ export default () => {
             </div>
             <div className="sponsor p-4 ">
               <a href="https://givemycertificate.com/" target="_blank">
-                <img src="/img/logos/partners/certif.png" />
+                <img src="/img/logos/partners/gmc_logo.png" />
               </a>
             </div>
           </div>
