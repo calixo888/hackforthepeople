@@ -528,7 +528,7 @@ export default () => {
             </div>
             <div className="sponsor p-5">
               <a href="https://www.echoar.xyz/" target="_blank">
-                <img src="/img/logos/partners/echo.png" />
+                <img src="/img/logos/partners/echoar.png" />
               </a>
             </div>
             <div className="sponsor p-4 ">
