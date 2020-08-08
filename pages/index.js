@@ -491,22 +491,26 @@ export default () => {
             <div className="speaker">
               <img src="/img/speakers/grant.png" />
               <h5>Grant Sanderson </h5>
-              <p>3Blue1Brown</p>
+              <p>YouTube content creator and prominent mathematics communicator whose videos on the channel 3Blue1Brown have been viewed over 100 million times.</p>
             </div>
             <div className="speaker">
               <img src="/img/speakers/arthur.png" />
               <h5>Arthur Benjamin</h5>
-              <p>Math Professor at Harvey Mudd College</p>
+              <p>Professor of Mathematics at Harvey Mudd College. Prominent mathematics communicator whose “mathemagic” videos have reached millions and author of five popular books
+  </p>
             </div>
             <div className="speaker">
               <img src="/img/speakers/mithuna.png" />
               <h5>Mithuna Yoganathan</h5>
-              <p>Looking Glass Universe</p>
+              <p>YouTube content creator behind the popular math and physics channel Looking Glass Universe and Ph.D. student in Quantum Computing at the University of Cambridge.</p>
             </div>
+            
             <div className="speaker">
               <img src="/img/speakers/hobson.png" />
-              <h5>Hobson Lane</h5>
-              <p>CTO at Tangible AI</p>
+              <h5>Emille Lawrence</h5>
+              <p>Professor of Mathematics at the University of San Francisco, low-dimensional topologist, and an advocate for broadening participation in the mathematical sciences.
+
+</p>
             </div>
           </div>
         </div>
