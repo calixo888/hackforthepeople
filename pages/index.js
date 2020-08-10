@@ -470,7 +470,8 @@ export default () => {
               <a href="https://www.ncwit.org/" target="_blank">
                 <img src="/img/logos/partners/ncwit.jpg" />
               </a>
-            </div><div className="partner flik p-5">
+            </div>
+            <div className="partner flik p-5">
               <a href="https://www.builtbygirls.com/" target="_blank">
                 <img src="/img/logos/partners/bbg.png" />
               </a>
@@ -480,18 +481,22 @@ export default () => {
                 <img src="/img/logos/partners/gos.png" />
               </a>
             </div>
-            
-            
+
+            <div className="partner flik p-1">
+              <a href="https://techtogether.io/" target="_blank">
+                <img src="/img/logos/partners/lockup_techtogether_color.png" />
+              </a>
             </div>
+          </div>
         </div>
       </section>
 
       <section className="sponsors">
         <div className="container">
           <h1>Sponsors</h1>
-         
+
           <div className="sponsors-grid">
-          <div className="sponsor p-4">
+            <div className="sponsor p-4">
               <a href="https://www.voiceflow.com/" target="_blank">
                 <img src="/img/logos/partners/voiceflow.png" />
               </a>
