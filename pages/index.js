@@ -456,11 +456,13 @@ export default () => {
                 <img src="/img/logos/partners/flik.jpg" />
               </a>
             </div>
-            <div className="partner flik p-1">
-              <a href="https://hackasolution.org/" target="_blank">
-                <img src="/img/logos/partners/hack-a-solution-logo.png" />
+
+            <div className="partner flik p-5">
+              <a href="https://www.builtbygirls.com/" target="_blank">
+                <img src="/img/logos/partners/bbg.png" />
               </a>
             </div>
+
             <div className="partner flik p-5">
               <a href="https://ngcproject.org/the-connectory" target="_blank">
                 <img src="/img/logos/partners/ngc.png" />
@@ -471,9 +473,10 @@ export default () => {
                 <img src="/img/logos/partners/ncwit.jpg" />
               </a>
             </div>
-            <div className="partner flik p-5">
-              <a href="https://www.builtbygirls.com/" target="_blank">
-                <img src="/img/logos/partners/bbg.png" />
+
+            <div className="partner flik p-1">
+              <a href="https://hackasolution.org/" target="_blank">
+                <img src="/img/logos/partners/hack-a-solution-logo.png" />
               </a>
             </div>
             <div className="partner flik p-1">
@@ -539,6 +542,16 @@ export default () => {
             <div className="sponsor p-4 ">
               <a href="https://givemycertificate.com/" target="_blank">
                 <img src="/img/logos/partners/gmc_logo.png" />
+              </a>
+            </div>
+            <div className="sponsor p-4 ">
+              <a href="https://www.riffanalytics.ai/" target="_blank">
+                <img src="/img/logos/partners/riff.png" />
+              </a>
+            </div>
+            <div className="sponsor p-4 ">
+              <a href="https://www.tastytrade.com/tt/" target="_blank">
+                <img src="/img/logos/partners/tasty.png" />
               </a>
             </div>
           </div>
