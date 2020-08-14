@@ -21,7 +21,7 @@ export default () => {
         <div className="container">
           <div className="team-grid">
             <div className="member">
-              <img src="/img/team/kevin.jpg" />
+              <img src="/img/team/kevin.png" />
               <h5>Kevin Wang</h5>
               <p>Lead Director</p>
             </div>
