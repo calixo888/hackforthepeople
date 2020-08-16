@@ -3,6 +3,7 @@ import Head from "next/head";
 import Header from "../components/Header.js";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import ReactModal from "react-modal";
+import Iframe from "react-iframe";
 
 export default (props) => {
   var subtitle;
@@ -87,6 +88,17 @@ export default (props) => {
         headerText="Virtual Schedule"
         description="We will release the official schedule for Hack For The People as the hackathon date approaches!"
       />
+
+      <Iframe
+        url="https://airtable.com/embed/shriTHrYC6Zy4XufI?backgroundColor=pink&viewControls=on"
+        width="100%"
+        height="533"
+        frameBorder="0"
+        className="airtable-embed"
+        style={{ background: "transparent", border: "1px solid #ccc" }}
+      />
+
+      {/*
 
       <section className="schedule">
         <div className="container">
@@ -231,6 +243,7 @@ export default (props) => {
           </div>
         </div>
       </section>
+                */}
     </Layout>
   );
 };
