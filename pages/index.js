@@ -525,6 +525,14 @@ export default () => {
               </a>
             </div>
             <div className="sponsor p-5">
+              <a
+                href="https://www.hyperxgaming.com/unitedstates/us"
+                target="_blank"
+              >
+                <img src="/img/logos/partners/hyper.jpg" />
+              </a>
+            </div>
+            <div className="sponsor p-5">
               <a href="https://clickup.com/" target="_blank">
                 <img src="/img/logos/partners/clickup.svg" />
               </a>
