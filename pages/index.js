@@ -515,6 +515,11 @@ export default () => {
               </a>
             </div>
             <div className="sponsor p-5">
+              <a href="https://bubble.io/" target="_blank">
+                <img src="/img/logos/partners/bubble.png" />
+              </a>
+            </div>
+            <div className="sponsor p-5">
               <a href="https://balsamiq.com/" target="_blank">
                 <img src="/img/logos/partners/balsamiq.png" />
               </a>
