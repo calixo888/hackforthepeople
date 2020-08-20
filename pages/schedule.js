@@ -89,9 +89,6 @@ export default (props) => {
         description="We will release the official schedule for Hack For The People as the hackathon date approaches!"
       />
 
-    
-
-      
       <section className="schedule">
         <div className="container">
           <div className="body">
@@ -143,47 +140,53 @@ export default (props) => {
 
               <TabPanel>
                 <table id="friday">
-
                   <Iframe
-        url="https://airtable.com/embed/shrnufXqYwG9oBb9a?backgroundColor=pink&layout=card&viewControls=on"
-        width="100%"
-        height="533"
-        frameBorder="0"
-        className="airtable-embed"
-        style={{ background: "transparent", border: "1px solid #ccc" }}
-      />
-             
+                    url=" https://airtable.com/embed/shriTHrYC6Zy4XufI?backgroundColor=pink&layout=card&viewControls=on"
+                    width="100%"
+                    height="533"
+                    frameBorder="0"
+                    className="airtable-embed"
+                    style={{
+                      background: "transparent",
+                      border: "1px solid #ccc",
+                    }}
+                  />
                 </table>
               </TabPanel>
               <TabPanel>
                 <table id="saturday">
-                <Iframe
-        url="https://airtable.com/embed/shrctLRr0kv9xlQUX?backgroundColor=pink&layout=card&viewControls=on"
-        width="100%"
-        height="533"
-        frameBorder="0"
-        className="airtable-embed"
-        style={{ background: "transparent", border: "1px solid #ccc" }}
-      />
+                  <Iframe
+                    url="https://airtable.com/embed/shrctLRr0kv9xlQUX?backgroundColor=pink&layout=card&viewControls=on"
+                    width="100%"
+                    height="533"
+                    frameBorder="0"
+                    className="airtable-embed"
+                    style={{
+                      background: "transparent",
+                      border: "1px solid #ccc",
+                    }}
+                  />
                 </table>
               </TabPanel>
               <TabPanel>
                 <table id="sunday">
-                <Iframe
-        url="https://airtable.com/embed/shriTHrYC6Zy4XufI?backgroundColor=pink&layout=card&viewControls=on"
-        width="100%"
-        height="533"
-        frameBorder="0"
-        className="airtable-embed"
-        style={{ background: "transparent", border: "1px solid #ccc" }}
-      />
+                  <Iframe
+                    url="https://airtable.com/embed/shrnufXqYwG9oBb9a?backgroundColor=pink&layout=card&viewControls=on"
+                    width="100%"
+                    height="533"
+                    frameBorder="0"
+                    className="airtable-embed"
+                    style={{
+                      background: "transparent",
+                      border: "1px solid #ccc",
+                    }}
+                  />
                 </table>
               </TabPanel>
             </Tabs>
           </div>
         </div>
       </section>
-                
     </Layout>
   );
 };
