@@ -21,13 +21,13 @@ export default () => {
         <div className="container">
           <div className="team-grid">
             <div className="member">
-              <img src="/img/team/kevin.jpg" />
+              <img src="/img/team/kevin.png" />
               <h5>Kevin Wang</h5>
               <p>Lead Director</p>
             </div>
             <div className="member">
-              <img src="/img/team/naveena.jpg" />
-              <h5>Naveena Dommaraju</h5>
+              <img src="/img/team/kevini.jpg" />
+              <h5>Kevin Yang</h5>
               <p>Director of Operations</p>
             </div>
             <div className="member">
@@ -48,11 +48,6 @@ export default () => {
           </div>
 
           <div className="team-grid coordinators">
-            <div className="member">
-              <img src="/img/team/kevini.jpg" />
-              <h5>Kevin Yang</h5>
-              <p>Operations</p>
-            </div>
             <div className="member">
               <img src="/img/team/darren.jpg" />
               <h5>Darren Chang</h5>

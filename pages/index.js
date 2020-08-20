@@ -421,7 +421,68 @@ export default () => {
               <a href="https://scholar.harvard.edu/panel" target="_blank"><img src="/img/logos/partners/panel-to-the-people.png" /></a>
             </div>
             <div className="partner">
-              <a href="https://www.ted.com/tedx/events/24786" target="_blank"><img src="/img/logos/partners/tedxharvard.png" /></a>
+              <a href="https://www.ted.com/tedx/events/24786" target="_blank">
+                <img src="/img/logos/partners/tedxharvard.png" />
+              </a>
+            </div>
+            <div className="partner">
+              <a href="https://discord.com/" target="_blank">
+                <img src="/img/logos/partners/discord.svg" />
+              </a>
+            </div>
+            <div className="partner p-2">
+              <a href="https://cloud.google.com/" target="_blank">
+                <img src="/img/logos/partners/gcloud2.png" />
+              </a>
+            </div>
+            <div className="partner p-5">
+              <a href="https://bostonhacks.io/" target="_blank">
+                <img src="/img/logos/partners/bostonhacks.png" />
+              </a>
+            </div>
+            <div className="partner io p-5 large-partner">
+              <a href="https://www.theiofoundation.org/" target="_blank">
+                <img src="/img/logos/partners/io.png" />
+              </a>
+            </div>
+            <div className="partner flik large-partner">
+              <a href="https://www.weareflik.com/" target="_blank">
+                <img src="/img/logos/partners/flik.jpg" />
+              </a>
+            </div>
+
+            <div className="partner flik p-5">
+              <a href="https://www.builtbygirls.com/" target="_blank">
+                <img src="/img/logos/partners/bbg.png" />
+              </a>
+            </div>
+
+            <div className="partner flik p-5">
+              <a href="https://ngcproject.org/the-connectory" target="_blank">
+                <img src="/img/logos/partners/ngc.png" />
+              </a>
+            </div>
+            <div className="partner flik p-5">
+              <a href="https://www.ncwit.org/" target="_blank">
+                <img src="/img/logos/partners/ncwit.jpg" />
+              </a>
+            </div>
+
+            <div className="partner flik p-1">
+              <a href="https://hackasolution.org/" target="_blank">
+                <img src="/img/logos/partners/hack-a-solution-logo.png" />
+              </a>
+            </div>
+            <div className="partner flik p-1">
+              <a href="https://girlsofsteelrobotics.com/" target="_blank">
+                <img src="/img/logos/partners/gos.png" />
+              </a>
+            </div>
+
+            <div className="partner flik p-1">
+              <a href="https://techtogether.io/" target="_blank">
+                <img src="/img/logos/partners/lockup_techtogether_color.png" />
+              </a>
             </div>
           </div>
         </div>
@@ -430,6 +491,77 @@ export default () => {
       <section className="sponsors">
         <div className="container">
           <h1>Sponsors</h1>
+
+          <div className="sponsors-grid">
+            <div className="sponsor p-4">
+              <a href="https://www.voiceflow.com/" target="_blank">
+                <img src="/img/logos/partners/voiceflow.png" />
+              </a>
+            </div>
+            <div className="sponsor p-5">
+              <a href="https://www.wolframalpha.com/" target="_blank">
+                <img src="/img/logos/partners/wolfram.png" />
+              </a>
+            </div>
+            <div className="sponsor p-5">
+              <a href="https://www.bugsee.com/" target="_blank">
+                <img src="/img/logos/partners/bugsee.png" />
+              </a>
+            </div>
+            <div className="sponsor p-5">
+              <a href="https://bubble.io/" target="_blank">
+                <img src="/img/logos/partners/bubble.png" />
+              </a>
+            </div>
+            <div className="sponsor p-5">
+              <a href="https://balsamiq.com/" target="_blank">
+                <img src="/img/logos/partners/balsamiq.png" />
+              </a>
+            </div>
+            <div className="sponsor p-5">
+              <a href="https://www.stickergiant.com/" target="_blank">
+                <img src="/img/logos/partners/stickergiant.png" />
+              </a>
+            </div>
+            <div className="sponsor p-5">
+              <a
+                href="https://www.hyperxgaming.com/unitedstates/us"
+                target="_blank"
+              >
+                <img src="/img/logos/partners/hyper.jpg" />
+              </a>
+            </div>
+            <div className="sponsor p-5">
+              <a href="https://clickup.com/" target="_blank">
+                <img src="/img/logos/partners/clickup.svg" />
+              </a>
+            </div>
+            <div className="sponsor p-5">
+              <a href="https://www.interviewcake.com/" target="_blank">
+                <img src="/img/logos/partners/cake.jpg" />
+              </a>
+            </div>
+            <div className="sponsor p-5">
+              <a href="https://www.echoar.xyz/" target="_blank">
+                <img src="/img/logos/partners/echoar.png" />
+              </a>
+            </div>
+            <div className="sponsor p-4 ">
+              <a href="https://givemycertificate.com/" target="_blank">
+                <img src="/img/logos/partners/gmc_logo.png" />
+              </a>
+            </div>
+            <div className="sponsor p-4 ">
+              <a href="https://www.riffanalytics.ai/" target="_blank">
+                <img src="/img/logos/partners/riff.png" />
+              </a>
+            </div>
+            <div className="sponsor p-4 ">
+              <a href="https://www.tastytrade.com/tt/" target="_blank">
+                <img src="/img/logos/partners/tasty.png" />
+              </a>
+            </div>
+          </div>
           <p>
             Interested in sponsoring us? Check out our{" "}
             <a
