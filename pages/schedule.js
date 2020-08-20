@@ -89,17 +89,9 @@ export default (props) => {
         description="We will release the official schedule for Hack For The People as the hackathon date approaches!"
       />
 
-      <Iframe
-        url="https://airtable.com/embed/shriTHrYC6Zy4XufI?backgroundColor=pink&viewControls=on"
-        width="100%"
-        height="533"
-        frameBorder="0"
-        className="airtable-embed"
-        style={{ background: "transparent", border: "1px solid #ccc" }}
-      />
+    
 
-      {/*
-
+      
       <section className="schedule">
         <div className="container">
           <div className="body">
@@ -151,99 +143,47 @@ export default (props) => {
 
               <TabPanel>
                 <table id="friday">
-                  <tr>
-                    <th>Event</th>
-                    <th>Time</th>
-                    <th>Link</th>
-                  </tr>
-                  <tr>
-                    <td>Opening Ceremonies</td>
-                    <td>10:00 AM</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>The IO Foundation</td>
-                    <td>2:00 PM</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>Boston Hacks</td>
-                    <td>5:00 PM</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>Google Tech Talk</td>
-                    <td>7:00 PM</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>Basic of Web-Dev (React)</td>
-                    <td>8:00 PM</td>
-                    <td>TBD</td>
-                  </tr>
+
+                  <Iframe
+        url="https://airtable.com/embed/shriTHrYC6Zy4XufI?backgroundColor=pink&layout=card&viewControls=on"
+        width="100%"
+        height="533"
+        frameBorder="0"
+        className="airtable-embed"
+        style={{ background: "transparent", border: "1px solid #ccc" }}
+      />
+             
                 </table>
               </TabPanel>
               <TabPanel>
                 <table id="saturday">
-                  <tr>
-                    <th>Event</th>
-                    <th>Time</th>
-                    <th>Link</th>
-                  </tr>
-                  <tr>
-                    <td>Math Panel</td>
-                    <td>2:00 PM</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>echoAR Workshop</td>
-                    <td>4:00 PM</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>CVT Panel</td>
-                    <td>6:00 PM</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>
-                      Coffee, Chatbots, and AI: A Talk with Hobson Lane, CTO Of
-                      Tangible AI
-                    </td>
-                    <td>8:00 PM</td>
-                    <td>TBD</td>
-                  </tr>
+                <Iframe
+        url="https://airtable.com/embed/shrctLRr0kv9xlQUX?backgroundColor=pink&viewControls=on"
+        width="100%"
+        height="533"
+        frameBorder="0"
+        className="airtable-embed"
+        style={{ background: "transparent", border: "1px solid #ccc" }}
+      />
                 </table>
               </TabPanel>
               <TabPanel>
                 <table id="sunday">
-                  <tr>
-                    <th>Event</th>
-                    <th>Time</th>
-                    <th>Link</th>
-                  </tr>
-                  <tr>
-                    <td>Hack Ends (Submissions end)</td>
-                    <td>1:00 PM</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>Closing Ceremonies</td>
-                    <td>4:00 PM</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>Team Celebrate!</td>
-                    <td>6:00 PM</td>
-                    <td>TBD</td>
-                  </tr>
+                <Iframe
+        url="https://airtable.com/embed/shrnufXqYwG9oBb9a?backgroundColor=pink&viewControls=on"
+        width="100%"
+        height="533"
+        frameBorder="0"
+        className="airtable-embed"
+        style={{ background: "transparent", border: "1px solid #ccc" }}
+      />
                 </table>
               </TabPanel>
             </Tabs>
           </div>
         </div>
       </section>
-                */}
+                
     </Layout>
   );
 };
