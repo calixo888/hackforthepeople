@@ -145,7 +145,7 @@ export default (props) => {
                 <table id="friday">
 
                   <Iframe
-        url="https://airtable.com/embed/shriTHrYC6Zy4XufI?backgroundColor=pink&layout=card&viewControls=on"
+        url="https://airtable.com/embed/shrnufXqYwG9oBb9a?backgroundColor=pink&layout=card&viewControls=on"
         width="100%"
         height="533"
         frameBorder="0"
@@ -158,7 +158,7 @@ export default (props) => {
               <TabPanel>
                 <table id="saturday">
                 <Iframe
-        url="https://airtable.com/embed/shrctLRr0kv9xlQUX?backgroundColor=pink&viewControls=on"
+        url="https://airtable.com/embed/shrctLRr0kv9xlQUX?backgroundColor=pink&layout=card&viewControls=on"
         width="100%"
         height="533"
         frameBorder="0"
@@ -170,7 +170,7 @@ export default (props) => {
               <TabPanel>
                 <table id="sunday">
                 <Iframe
-        url="https://airtable.com/embed/shrnufXqYwG9oBb9a?backgroundColor=pink&viewControls=on"
+        url="https://airtable.com/embed/shriTHrYC6Zy4XufI?backgroundColor=pink&layout=card&viewControls=on"
         width="100%"
         height="533"
         frameBorder="0"
