@@ -412,13 +412,19 @@ export default () => {
           <h1>Partnerships</h1>
           <div className="partners-grid">
             <div className="partner p-5">
-              <a href="https://hackplus.io/" target="_blank"><img src="/img/logos/partners/hackplus.png" /></a>
+              <a href="https://hackplus.io/" target="_blank">
+                <img src="/img/logos/partners/hackplus.png" />
+              </a>
             </div>
             <div className="partner">
-              <a href="https://www.understandcovid.org/" target="_blank"><img src="/img/logos/partners/cvt.png" /></a>
+              <a href="https://www.understandcovid.org/" target="_blank">
+                <img src="/img/logos/partners/cvt.png" />
+              </a>
             </div>
             <div className="partner p-5">
-              <a href="https://scholar.harvard.edu/panel" target="_blank"><img src="/img/logos/partners/panel-to-the-people.png" /></a>
+              <a href="https://scholar.harvard.edu/panel" target="_blank">
+                <img src="/img/logos/partners/panel-to-the-people.png" />
+              </a>
             </div>
             <div className="partner">
               <a href="https://www.ted.com/tedx/events/24786" target="_blank">
@@ -509,7 +515,10 @@ export default () => {
               </a>
             </div>
             <div className="sponsor p-5">
-              <a href="https://bubble.io/" target="_blank">
+              <a
+                href="https://bubble.io/?utm_source=hackathon&utm_medium=sponsor&utm_campaign=HackforthePeople"
+                target="_blank"
+              >
                 <img src="/img/logos/partners/bubble.png" />
               </a>
             </div>
