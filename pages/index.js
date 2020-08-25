@@ -523,6 +523,12 @@ export default () => {
               </a>
             </div>
             <div className="sponsor p-5">
+              <a href="https://codescene.io/" target="_blank">
+                <img src="/img/logos/partners/codescene.png" />
+              </a>
+            </div>
+
+            <div className="sponsor p-5">
               <a href="https://balsamiq.com/" target="_blank">
                 <img src="/img/logos/partners/balsamiq.png" />
               </a>
